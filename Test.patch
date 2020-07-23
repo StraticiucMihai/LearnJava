@@ -1,0 +1,2818 @@
+Index: .idea/libraries/javafx_swt.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/javafx_swt.xml	(date 1595434745190)
++++ .idea/libraries/javafx_swt.xml	(date 1595434745190)
+@@ -0,0 +1,16 @@
++<component name="libraryTable">
++  <library name="javafx-swt">
++    <CLASSES>
++      <root url="jar://$PROJECT_DIR$/../Lib_Files/openjfx-11.0.2_linux-x64_bin-sdk/javafx-sdk-11.0.2/lib/javafx-swt.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../Lib_Files/openjfx-11.0.2_linux-x64_bin-sdk/javafx-sdk-11.0.2/lib/javafx.base.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../Lib_Files/openjfx-11.0.2_linux-x64_bin-sdk/javafx-sdk-11.0.2/lib/javafx.controls.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../Lib_Files/openjfx-11.0.2_linux-x64_bin-sdk/javafx-sdk-11.0.2/lib/javafx.fxml.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../Lib_Files/openjfx-11.0.2_linux-x64_bin-sdk/javafx-sdk-11.0.2/lib/javafx.graphics.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../Lib_Files/openjfx-11.0.2_linux-x64_bin-sdk/javafx-sdk-11.0.2/lib/javafx.media.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../Lib_Files/openjfx-11.0.2_linux-x64_bin-sdk/javafx-sdk-11.0.2/lib/javafx.swing.jar!/" />
++      <root url="jar://$PROJECT_DIR$/../Lib_Files/openjfx-11.0.2_linux-x64_bin-sdk/javafx-sdk-11.0.2/lib/javafx.web.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/uiDesigner.xml	(date 1585419821620)
++++ .idea/uiDesigner.xml	(date 1585419821620)
+@@ -0,0 +1,124 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Palette2">
++    <group name="Swing">
++      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
++      </item>
++      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.png" removable="false" auto-create-binding="false" can-attach-label="true">
++        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
++        <initial-values>
++          <property name="text" value="Button" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="RadioButton" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="CheckBox" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="Label" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
++          <preferred-size width="-1" height="20" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
++      </item>
++    </group>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(date 1574715930474)
++++ .idea/misc.xml	(date 1574715930474)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/modules.xml	(date 1574715930478)
++++ .idea/modules.xml	(date 1574715930478)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/Udemy_learning.iml" filepath="$PROJECT_DIR$/Udemy_learning.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/codeStyles/codeStyleConfig.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/codeStyles/codeStyleConfig.xml	(date 1574715930486)
++++ .idea/codeStyles/codeStyleConfig.xml	(date 1574715930486)
+@@ -0,0 +1,5 @@
++<component name="ProjectCodeStyleConfiguration">
++  <state>
++    <option name="PREFERRED_PROJECT_CODE_STYLE" value="Default" />
++  </state>
++</component>
+\ No newline at end of file
+Index: Udemy_learning.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Udemy_learning.iml	(date 1595440600401)
++++ Udemy_learning.iml	(date 1595440600401)
+@@ -0,0 +1,13 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="library" name="javafx-swt" level="project" />
++    <orderEntry type="library" name="PackageLesson" level="project" />
++  </component>
++</module>
+\ No newline at end of file
+Index: src/Generics/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/Generics/Main.java	(date 1585496605750)
++++ src/Generics/Main.java	(date 1585496605750)
+@@ -0,0 +1,27 @@
++package Generics;
++
++public class Main {
++
++    public static void main(String args[]){
++        System.out.println("Generics");
++
++
++        FotballPlayer joe = new FotballPlayer("Joe");
++        BaseballPlayer pat = new BaseballPlayer("Pat");
++        SoccerPlayer mihai = new SoccerPlayer("Mihai");
++
++        Team<FotballPlayer>  team1 = new Team<>("Team nr 1");
++        team1.addPlayer(joe);
++        
++        System.out.println(team1.numPlayers() + "players fro team nr 1");
++
++        Team<BaseballPlayer>  team2 = new Team<>(" Team nr 2 ");
++        team2.addPlayer(pat);
++
++
++        Team<SoccerPlayer> team3 = new Team<>("Team nr 3");
++        team3.addPlayer(mihai);
++
++
++    }
++}
+Index: .idea/libraries/PackageLesson.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/PackageLesson.xml	(date 1595440600425)
++++ .idea/libraries/PackageLesson.xml	(date 1595440600425)
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="PackageLesson">
++    <CLASSES>
++      <root url="jar://$PROJECT_DIR$/../PackageLesson/out/artifacts/PackageLesson_jar/PackageLesson.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: src/Generics/SoccerPlayer.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/Generics/SoccerPlayer.java	(date 1585494690947)
++++ src/Generics/SoccerPlayer.java	(date 1585494690947)
+@@ -0,0 +1,8 @@
++package Generics;
++
++public class SoccerPlayer extends  Player {
++
++    public SoccerPlayer(String name) {
++        super(name);
++    }
++}
+Index: src/Generics/FotballPlayer.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/Generics/FotballPlayer.java	(date 1585494690959)
++++ src/Generics/FotballPlayer.java	(date 1585494690959)
+@@ -0,0 +1,8 @@
++package Generics;
++
++public class FotballPlayer extends  Player{
++
++    public FotballPlayer(String name) {
++        super(name);
++    }
++}
+Index: src/Generics/Player.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/Generics/Player.java	(date 1585494574416)
++++ src/Generics/Player.java	(date 1585494574416)
+@@ -0,0 +1,14 @@
++package Generics;
++
++public class Player {
++
++    private String name;
++
++    public Player(String name) {
++        this.name = name;
++    }
++
++    public String getName() {
++        return name;
++    }
++}
+Index: src/Generics/BaseballPlayer.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/Generics/BaseballPlayer.java	(date 1585494629777)
++++ src/Generics/BaseballPlayer.java	(date 1585494629777)
+@@ -0,0 +1,9 @@
++package Generics;
++
++public class BaseballPlayer extends Player {
++
++    public BaseballPlayer(String name) {
++        super(name);
++    }
++
++}
+Index: src/Generics/Team.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/Generics/Team.java	(date 1585496318482)
++++ src/Generics/Team.java	(date 1585496318482)
+@@ -0,0 +1,56 @@
++package Generics;
++
++import java.util.ArrayList;
++
++public class Team<T extends Player> {
++
++    private String name;
++    int played = 0;
++    int won = 0;
++    int lost =  0;
++    int tried = 0;
++
++    private ArrayList<T> members = new ArrayList<>();
++
++    public Team(String name) {
++        this.name = name;
++    }
++
++    public String getName() {
++        return name;
++    }
++
++    public boolean addPlayer(T newPlayer){
++        if(members.contains(newPlayer)){
++            System.out.println( (newPlayer).getName()+" Already exist.");
++            return false;
++        }else{
++            members.add(newPlayer);
++            System.out.println( (newPlayer).getName()+" piked for them "+ this.name);
++            return  true;
++        }
++    }
++
++    public int numPlayers(){
++        return this.members.size();
++    }
++    public void matchResult(Team opponent, int outScore, int theirScore){
++        if (outScore >theirScore){
++            won++;
++        }else if (outScore == theirScore){
++            tried++;
++        }else {
++            lost++;
++        }
++        if (opponent != null){
++            opponent.matchResult(null,theirScore,outScore);
++        }
++    }
++
++    public  int raking(){
++        return  (won*2)+tried;
++    }
++
++
++
++}
+Index: src/PreviousImplementation/PhoneInterface.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/PreviousImplementation/PhoneInterface.java	(date 1585419821252)
++++ src/PreviousImplementation/PhoneInterface.java	(date 1585419821252)
+@@ -0,0 +1,8 @@
++package PreviousImplementation;
++
++public interface PhoneInterface {
++
++
++    void turnOn();
++    void Call(int nrOfPhone);
++}
+Index: src/PreviousImplementation/Contacts.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/PreviousImplementation/Contacts.java	(date 1585419821244)
++++ src/PreviousImplementation/Contacts.java	(date 1585419821244)
+@@ -0,0 +1,35 @@
++package PreviousImplementation;
++
++public class Contacts
++{
++
++    private String Name;
++    private String PhoneNr;
++
++    public Contacts(String Name, String Phone){
++        try{
++        this.Name = Name;
++        this.PhoneNr =Phone;
++        }
++        catch (Exception e)
++        {
++            System.out.println("Something is wrong with creating an object");
++        }
++    }
++    public String getName() {
++        return this.Name;
++    }
++
++    public String getPhoneNr() {
++        return this.PhoneNr;
++    }
++
++    public void setName(String name) {
++        this.Name = name;
++    }
++
++    public void setPhoneNr(String phoneNr) {
++        PhoneNr = this.PhoneNr;
++    }
++
++}
+Index: src/PreviousImplementation/List.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/PreviousImplementation/List.java	(date 1585419821236)
++++ src/PreviousImplementation/List.java	(date 1585419821236)
+@@ -0,0 +1,21 @@
++package PreviousImplementation;
++
++import java.util.ArrayList;
++
++public class List {
++
++    private ArrayList<String> My_arraylist = new ArrayList<String>();
++
++   public void addElements(String element)
++   {
++    My_arraylist.add(element);
++   }
++   public void printelements()
++   {
++       System.out.println("You have added:" + My_arraylist.size()+"elements in Array list ");
++       for (int i =0 ;i<My_arraylist.size();i++)
++       {
++           System.out.println("Element:"+i+" is "+ My_arraylist.get(i));
++       }
++   }
++}
+Index: src/PreviousImplementation/Main_class.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/PreviousImplementation/Main_class.java	(date 1585419821260)
++++ src/PreviousImplementation/Main_class.java	(date 1585419821260)
+@@ -0,0 +1,211 @@
++package PreviousImplementation;
++
++import java.util.ArrayList;
++import java.util.InputMismatchException;
++import java.util.Scanner;
++
++class Car
++{
++    private boolean engine ;
++    private int cylinders;
++    private int wheels;
++    private String name;
++
++    public Car(int cylinders,  String name) {
++        this.cylinders = cylinders;
++        this.wheels = 4;
++        this.name = name;
++        this.engine = true;
++    }
++
++    public boolean isEngine() {
++        return this.engine;
++    }
++
++    public int getCylinders() {
++        return this.cylinders;
++    }
++
++    public int getWheels() {
++        return this.wheels;
++    }
++
++    public String getName() {
++        return this.name;
++    }
++    public void startEngine()
++    {
++        System.out.println("No car is here to start");
++    }
++    public void Accelerate ()
++    {
++        System.out.println("Accelerate a non existing car");
++    }
++    public void Break()
++    {
++        System.out.println("Stop non existing car");
++    }
++}
++class Ferarri extends Car
++{
++    public Ferarri(int cylinders, String name) {
++        super(cylinders, name);
++    }
++
++    @Override
++    public void startEngine() {
++        System.out.println("Ferrari start");
++    }
++
++    @Override
++    public void Accelerate() {
++        System.out.println("Ferrari accelerate");
++    }
++
++    @Override
++    public void Break() {
++        System.out.println("Ferrari stop");
++    }
++}
++class  BMW extends  Car
++{
++    public BMW(int cylinders, String name) {
++        super(cylinders, name);
++    }
++
++    @Override
++    public void startEngine() {
++        System.out.println("PreviousImplementation.BMW start");
++    }
++
++    @Override
++    public void Accelerate() {
++        System.out.println("PreviousImplementation.BMW accelerate");
++    }
++
++    @Override
++    public void Break() {
++        System.out.println("PreviousImplementation.BMW accelerate");
++    }
++}
++class Rolls_Royce extends Car
++{
++    public Rolls_Royce(int cylinders, String name) {
++        super(cylinders, name);
++    }
++
++
++    @Override
++    public void startEngine() {
++        System.out.println("PreviousImplementation.Rolls_Royce start");;
++    }
++
++    @Override
++    public void Accelerate() {
++        System.out.println("PreviousImplementation.Rolls_Royce accelerate");
++    }
++
++    @Override
++    public void Break() {
++        System.out.println("PreviousImplementation.Rolls_Royce stop");
++    }
++}
++
++public class Main_class
++{
++    /*Declare a scanner that read from the console   scanner is one of the methods that allow us to introduce inputs from the console */
++    //private static Scanner scanner = new Scanner(System.in);
++
++
++
++
++
++
++
++
++
++    public static  int [ ] getInt(int nr)
++    {
++        System.out.println("Enter "+ nr +"Integers values. \r");
++
++        int [] values = new int[nr];
++
++        for (int i =0 ; i<values.length;i++)
++        {
++            //  values[i] = scanner.nextInt();
++        }
++        return values;
++    }
++
++    public static void main( String[] args)
++    {
++        /*arrays */
++
++        //  int [] my_array; /*Unbound array*/
++        /*declare all variable of the array */
++       /* int [] myint = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
++        int lenght = myint.length;
++        System.out.println("Length of the array is : " + lenght);
++        double[] new_double = new double[10];
++        new_double[2] = 2.55;
++
++
++        int [] MyInt = getInt(5);
++        for(int i=0;i<MyInt.length;i++) System.out.println("MyInt["+i+"]"+"="+ MyInt[i]);
++        int [] my_array = readIntegers(10);
++        int minValue = findMin(my_array);
++        System.out.println("Array is :" + Arrays.toString(my_array) );
++        System.out.println("Min value is:" +minValue);*/
++
++       /*ArrayList*/
++        List new_list = new List();
++        new_list.addElements("Mihai");
++        new_list.addElements("Andreea");
++        new_list.printelements();
++        ArrayList<String> my_list = new ArrayList<String>();
++        my_list.add("Mihai");
++        my_list.add("Andreea");
++        my_list.add("Diana");
++        boolean retVal= my_list.contains("Mihai");
++
++        int position = my_list.indexOf("Diana");
++        System.out.println("Ret val is:"  +retVal+"Position is:"+ position);
++        
++
++
++
++    }
++
++    private static int [] readIntegers( int count)
++    {
++        int [] return_array = new int[count];
++        Scanner scanner = new Scanner(System.in);
++        for(int i =0;i<count;i++)
++        {
++            try{
++                return_array[i]=scanner.nextInt();
++            }
++            catch ( InputMismatchException exception )
++            {
++                System.out.println("you have entered a wrong number format");
++            }
++        }
++        System.out.println("Thank you");
++        return return_array;
++    }
++    private static int findMin(int [] array)
++    {
++        int min_value=0;
++
++        for(int i=0; i <array.length;i++)
++        {
++            if(min_value > array[i])
++            {
++                min_value= array[i];
++            }
++        }
++
++        return min_value;
++    }
++
++}
+Index: src/PreviousImplementation/MobilePhone.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/PreviousImplementation/MobilePhone.java	(date 1585419821224)
++++ src/PreviousImplementation/MobilePhone.java	(date 1585419821224)
+@@ -0,0 +1,163 @@
++package PreviousImplementation;
++
++import java.util.ArrayList;
++import java.util.Scanner;
++
++public class MobilePhone {
++
++    /*   private enum MenuOptions
++       {
++           Quit (6),
++           PrintAllContacts(1),
++           AddNewContact(2),
++           UpdateContact(3),
++           RemoveContact(4),
++           SearchContact(5);
++
++           MenuOptions(int i) {
++           }
++
++       }*/
++    public static Scanner scanner= new Scanner(System.in);
++    public static ArrayList<Contacts> ListOfContacts = new ArrayList<Contacts>();
++    public static void main(String[] args )
++    {
++
++        int Command;
++        PrintMenu();
++        while((Command= scanner.nextInt())!= 6 )
++        {
++
++            System.out.println("Command read is : "+Command);
++            switch (Command)
++            {
++                case 1:/*Print All PreviousImplementation.Contacts*/
++                {
++                    if(ListOfContacts.isEmpty() != true) {
++                        for (Contacts contacts : ListOfContacts) {
++                            System.out.println("Name:" + contacts.getName() + " PreviousImplementation.Phone number:" + contacts.getPhoneNr());
++                        }
++                    }
++                    else System.out.println("PreviousImplementation.List is empty");
++                }
++                break;
++                case 2:/*Add a new Contact*/
++                {
++                    System.out.println("Enter the name:");
++                    String Name = scanner.next();
++                    System.out.println("Enter the PreviousImplementation.Phone Number:");
++                    String PhoneNumber = scanner.next();
++                    System.out.println("Name: "+Name+" PreviousImplementation.Phone: "+PhoneNumber);
++                    Contacts NewContact = new Contacts(Name,PhoneNumber);
++                    ListOfContacts.add(NewContact);
++                }
++                break;
++                case 3:/*Update an existing Contact*/
++                {
++                    String Name;
++                    String PhoneNumber;
++                    int Option;
++                    int IndexOfObject;
++                    System.out.println("Please enter the name of the contact:");
++                    Name = scanner.next();
++                     if(-1 < (IndexOfObject=SearchContact(Name)))
++                     {
++                         //System.out.println("Contact Exist and its index is: "+ IndexOfObject);
++                         System.out.println("What do you want to change?\n" +
++                                 "1.Name\n" +
++                                 "2.PreviousImplementation.Phone Number");
++                         Option =scanner.nextInt();
++                         switch (Option)
++                         {
++                             case 1:
++                             {
++                                 System.out.println("Enter new name:");
++                                 Name = scanner.next();
++                                 Contacts contacts =ListOfContacts.get(IndexOfObject);
++                                  contacts.setName(Name);
++                             }
++                             break;
++                             case 2:
++                             {
++                                 System.out.println("Enter new phone number:");
++                                 PhoneNumber= scanner.next();
++                                 Contacts contacts =ListOfContacts.get(IndexOfObject);
++                                 contacts.setPhoneNr(PhoneNumber);
++                             }
++                             break;
++                             default:
++                             {}
++                             break;
++                         }
++                     }
++                     else
++                     {
++                         System.out.println("Contact Don't Exist");
++                     }
++
++                }
++                break;
++                case 4:/*Remove an existing Contact*/
++                {
++                    String Name;
++                    int IndexOfObject;
++                    System.out.println("Please enter the name of the contact:");
++                    Name = scanner.next();
++                    if(-1 < (IndexOfObject=SearchContact(Name)))
++                    {
++                        ListOfContacts.remove(IndexOfObject);
++                    }
++                    else System.out.println("Contact don't exist");
++                }
++                break;
++                case 5:/*Search for a specific Contact*/
++                {
++                    String Name;
++                    int IndexOfObject;
++                    System.out.println("Please enter the name of the contact:");
++                    Name = scanner.next();
++                    if(-1 < (IndexOfObject=SearchContact(Name)))
++                    {
++                          Contacts contacts= ListOfContacts.get(IndexOfObject);
++                          System.out.println("Name is : "+ contacts.getName()+ "PreviousImplementation.Phone number is:"+contacts.getPhoneNr());
++                    }
++                    else System.out.println("Contact don't exist");
++                }
++                break;
++                case 6:/*Quit*/
++                {}
++                break;
++                default:
++                {
++                    System.out.println("A wrong command was entered:"+Command);
++                    PrintMenu();
++                }
++                break;
++            }
++            PrintMenu();
++        }
++    }
++
++    public static void PrintMenu()
++    {
++        System.out.println("Menu of commands available:\n" +
++                "1.Print All PreviousImplementation.Contacts\n" +
++                "2.Add a new Contact\n" +
++                "3.Update an existing Contact\n" +
++                "4.Remove an existing Contact\n" +
++                "5.Search for a specific Contact\n" +
++                "6.Quit\n" +
++                "Select an option:");
++    }
++    public static int SearchContact(String Name)
++    {
++        for(Contacts i: ListOfContacts)
++        {
++            if(i.getName().equals(Name))
++            {
++                return ListOfContacts.indexOf(i);
++            }
++        }
++        return -1;
++    }
++}
+Index: src/PreviousImplementation/Phone.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/PreviousImplementation/Phone.java	(date 1585419821248)
++++ src/PreviousImplementation/Phone.java	(date 1585419821248)
+@@ -0,0 +1,19 @@
++package PreviousImplementation;
++
++public class Phone implements PhoneInterface{
++
++    public static void main(String args[])
++    {
++
++    }
++
++    @Override
++    public void turnOn() {
++
++    }
++
++    @Override
++    public void Call(int nrOfPhone) {
++
++    }
++}
+Index: src/PreviousImplementation/Main_1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/PreviousImplementation/Main_1.java	(date 1585419821240)
++++ src/PreviousImplementation/Main_1.java	(date 1585419821240)
+@@ -0,0 +1,33 @@
++package PreviousImplementation;
++
++import java.util.Iterator;
++import java.util.LinkedList;
++
++public class Main_1 {
++
++
++    public static void main(String[] args) {
++
++
++        LinkedList<String> my_list = new LinkedList<String>();
++        my_list.add("PreviousImplementation.BMW");
++        my_list.add("Audi");
++        my_list.add("Woltsfagen");
++        my_list.add("RollsRoils");
++        my_list.add("Skoda");
++        my_list.add("Mihai");
++        my_list.add("Andreea");
++        my_list.add("Diana");
++        my_list.add("Gabriela");
++
++         Print(my_list);
++
++    }
++
++    private static void Print(LinkedList<String> linkedList){
++        Iterator<String> i = linkedList.iterator();
++        while (i.hasNext()){
++            System.out.println("Masina este: "+i.next());
++        }
++    }
++}
+Index: src/abstractClass/MyLinkedList.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/abstractClass/MyLinkedList.java	(date 1585428038328)
++++ src/abstractClass/MyLinkedList.java	(date 1585428038328)
+@@ -0,0 +1,108 @@
++package abstractClass;
++
++public class MyLinkedList implements NodeList {
++    private ListItem root = null;
++
++    public MyLinkedList(ListItem root) {
++        this.root = root;
++    }
++
++    @Override
++    public ListItem getRoot() {
++        return this.root;
++    }
++
++    @Override
++    public boolean addItem(ListItem item) {
++        if(this.root == null){
++            this.root = item;
++            return  true;
++        }
++        ListItem currentItem = this.root;
++        while(currentItem != null){
++            int comparison = (currentItem.compareTo(item));
++            if (comparison< 0){
++                // item is greater move to right if it;s possible
++                if(currentItem.next() != null){
++                    currentItem= currentItem.next();
++                }else{
++                    // no next insert at the end of the list
++                    currentItem.setNext(item).setPrevious(currentItem);
++                    return true;
++                }
++            }
++            else if (comparison >0 ){
++                // item is less, insert before
++                if (currentItem.previous() != null){
++                    currentItem.previous().setNext(item);
++                    item.setPrevious(currentItem.previous());
++                    item.setNext(currentItem);
++                    currentItem.setPrevious(item);
++
++                }else{
++                    // the node to the previous is the root
++                    item.setNext(this.root);
++                    this.root.setPrevious(item);
++                    this.root= item;
++
++                }
++                return true;
++            }
++            else{
++                   // equal
++                System.out.println(item.getValue() + " already exist");
++                return false;
++            }
++        }
++         return false;
++    }
++
++    @Override
++    public boolean removeItem(ListItem item) {
++        if (item != null){
++            System.out.println("Deleting item :" + item.getValue());
++        }
++
++        ListItem currentItem = this.root;
++        while (currentItem != null){
++            int comparison = currentItem.compareTo(item);
++            if (comparison == 0 ){
++                //Found an item to delete
++                if (currentItem == this.root){
++                    this.root = currentItem.next();
++                }else{
++                    currentItem.previous().setPrevious(currentItem.next());
++                    if (currentItem.next() != null){
++                        currentItem.next().setPrevious(currentItem.previous());
++                    }
++                }
++                return  true;
++            }
++            else if(comparison < 0){
++                currentItem =  currentItem.next();
++            }
++            else{
++                // comparison is greater >0
++                // we are at the item greater than the one to be deleted
++                //item is not in the list
++                return  false;
++            }
++        }
++        //We have reach the end of the list without finding th item
++        return false;
++    }
++
++    @Override
++    public void traverse(ListItem root) {
++        if (root == null){
++            System.out.println("List is empty");
++        }else {
++            while (root != null){
++                System.out.println(root.getValue());
++                root = root.next();
++            }
++        }
++
++
++    }
++}
+Index: src/abstractClass/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/abstractClass/Main.java	(date 1585428567579)
++++ src/abstractClass/Main.java	(date 1585428567579)
+@@ -0,0 +1,47 @@
++package abstractClass;
++
++public class Main {
++
++    public static void main(String args[]){
++
++        MyLinkedList  list = new MyLinkedList(null);
++        list.traverse(list.getRoot());
++        MyLinkedList list2 = new MyLinkedList(null);
++
++
++        String stringData = "Andreea Diana Caludia Maria Ioana Roxana  Adriana Oana Rodica Andreea ";
++        String[] data = stringData.split(" ");
++        String stringData2 = "5 7 5 3 4 8 9 1 2 3 8 5 7 0 10 11 12 33 22 55 44 99 ";
++        String[] data2 = stringData2.split(" ");
++        for(String s: data){
++               list.addItem(new Node(s));
++        }
++        list.traverse(list.getRoot());
++
++        System.out.println("Second set of data ");
++        for(String s: data2){
++            list2.addItem(new Node(s));
++        }
++        list2.traverse(list2.getRoot());
++        list2.removeItem(new Node(3));
++        list2.traverse(list2.getRoot());
++
++        list2.removeItem(new Node(5));
++        list2.traverse(list2.getRoot());
++
++        list2.removeItem(new Node(0));
++        list2.removeItem(new Node(4));
++        list2.removeItem(new Node(2));
++        list2.traverse(list2.getRoot());
++
++        list2.removeItem(new Node(9));
++        list2.traverse(list2.getRoot());
++
++        list2.removeItem(new Node(8));
++        list2.traverse(list2.getRoot());
++
++        list2.removeItem(new Node(1));
++        list2.traverse(list2.getRoot());
++    }
++
++}
+Index: src/abstractClass/NodeList.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/abstractClass/NodeList.java	(date 1585425257022)
++++ src/abstractClass/NodeList.java	(date 1585425257022)
+@@ -0,0 +1,10 @@
++package abstractClass;
++
++public interface NodeList {
++
++    ListItem getRoot();
++    boolean addItem(ListItem item);
++    boolean removeItem(ListItem item);
++    void traverse(ListItem root);
++
++}
+Index: src/abstractClass/Node.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/abstractClass/Node.java	(date 1585428401095)
++++ src/abstractClass/Node.java	(date 1585428401095)
+@@ -0,0 +1,45 @@
++package abstractClass;
++
++public class Node extends ListItem {
++
++    public Node(Object value) {
++        super(value);
++    }
++
++    @Override
++    ListItem next() {
++        return this.rigthLink;
++    }
++
++    @Override
++    ListItem setNext(ListItem item) {
++        this.rigthLink = item;
++
++        return this.rigthLink;
++    }
++
++    @Override
++    ListItem previous() {
++        return this.leftLink;
++    }
++
++    @Override
++    ListItem setPrevious(ListItem item) {
++        this.leftLink = item;
++
++        return this.leftLink;
++    }
++
++    @Override
++    int compareTo(ListItem item) {
++        if(item != null)
++        {
++            return ((String)super.getValue()).compareTo(item.getValue().toString());
++        }
++        else {
++            return -1;
++        }
++
++
++    }
++}
+Index: src/abstractClass/ListItem.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/abstractClass/ListItem.java	(date 1585424529468)
++++ src/abstractClass/ListItem.java	(date 1585424529468)
+@@ -0,0 +1,28 @@
++package abstractClass;
++
++public abstract class ListItem {
++      protected ListItem rigthLink = null;
++      protected ListItem leftLink  = null;
++
++      protected  Object value;
++
++    public ListItem(Object value) {
++        this.value = value;
++    }
++
++
++    abstract  ListItem next();
++    abstract ListItem setNext(ListItem item);
++    abstract ListItem previous();
++    abstract ListItem setPrevious(ListItem item);
++
++    abstract int compareTo(ListItem item);
++
++    public Object getValue() {
++        return value;
++    }
++
++    public void setValue(Object value) {
++        this.value = value;
++    }
++}
+Index: src/abstractClass/SearchTree.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/abstractClass/SearchTree.java	(date 1585428988461)
++++ src/abstractClass/SearchTree.java	(date 1585428988461)
+@@ -0,0 +1,37 @@
++package abstractClass;
++
++import PreviousImplementation.List;
++
++public class SearchTree implements  NodeList{
++
++    private ListItem root =null;
++
++    public SearchTree(ListItem root) {
++        this.root = root;
++    }
++
++    @Override
++    public ListItem getRoot() {
++        return this.root;
++    }
++
++    @Override
++    public boolean addItem(ListItem item) {
++        return false;
++    }
++
++    @Override
++    public boolean removeItem(ListItem item) {
++        return false;
++    }
++
++    @Override
++    public void traverse(ListItem root) {
++        // recursive method
++        if (this.root != null){
++            traverse(root.previous());
++            System.out.println(root.getValue());
++            traverse(root.next());
++        }
++    }
++}
+Index: Linked_list_chalange/LinkedListChallenge.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Linked_list_chalange/LinkedListChallenge.iml	(date 1442564878000)
++++ Linked_list_chalange/LinkedListChallenge.iml	(date 1442564878000)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
++
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(date 1595502839573)
++++ .idea/vcs.xml	(date 1595502839573)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: src/NamingConventionsPackagesStaticandFinalKeywords/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/NamingConventionsPackagesStaticandFinalKeywords/Main.java	(date 1595440780537)
++++ src/NamingConventionsPackagesStaticandFinalKeywords/Main.java	(date 1595440780537)
+@@ -0,0 +1,33 @@
++package NamingConventionsPackagesStaticandFinalKeywords;
++
++
++import PackageChallenge.Series;
++import org.w3c.dom.Node;
++
++//import org.w3c.dom.Node;
++public class Main {
++
++    public static void main(String[] args){
++        /**/
++        Node node =null;
++
++        MyWindow mywindow =new MyWindow("New Window");
++        mywindow.setVisible(true);
++
++        for (int i =0 ; i<=10 ; i++){
++            System.out.println(Series.nSum(i));
++        }
++
++        for (int i =0 ; i<=10 ; i++){
++            System.out.println("*******************************");
++            System.out.println(Series.factorial(i));
++        }
++
++        for (int i =0 ; i<=10 ; i++){
++            System.out.println("////////////////////////////////");
++            System.out.println(Series.fibonacci(i));
++
++        }
++
++    }
++}
+Index: Linked_list_chalange/src/com/timbuchalka/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Linked_list_chalange/src/com/timbuchalka/Main.java	(date 1585419821252)
++++ Linked_list_chalange/src/com/timbuchalka/Main.java	(date 1585419821252)
+@@ -0,0 +1,199 @@
++package com.timbuchalka;
++
++import javax.naming.PartialResultException;
++import java.util.*;
++
++public class Main {
++
++    private static ArrayList<Album> albums = new ArrayList<Album>();
++
++    public static void main(String[] args) {
++	    // Create a program that implements a playlist for songs
++        // Create a Song class having Title and Duration for a song.
++        // The program will have an Album class containing a list of songs.
++        // The albums will be stored in an ArrayList
++        // Songs from different albums can be added to the playlist and will appear in the list in the order
++        // they are added.
++        // Once the songs have been added to the playlist, create a menu of options to:-
++        // Quit,Skip forward to the next song, skip backwards to a previous song.  Replay the current song.
++        // PreviousImplementation.List the songs in the playlist
++        // A song must exist in an album before it can be added to the playlist (so you can only play songs that
++        // you own).
++        // Hint:  To replay a song, consider what happened when we went back and forth from a city before we
++        // started tracking the direction we were going.
++        // As an optional extra, provide an option to remove the current song from the playlist
++        // (hint: listiterator.remove()
++        Album album = new Album("Stormbringer", "Deep Purple");
++        album.addSong("Stormbringer", 4.6);
++        album.addSong("Love don't mean a thing", 4.22);
++        album.addSong("Holy man", 4.3);
++        album.addSong("Hold on", 5.6);
++        album.addSong("Lady double dealer", 3.21);
++        album.addSong("You can't do it right", 6.23);
++        album.addSong("High ball shooter", 4.27);
++        album.addSong("The gypsy", 4.2);
++        album.addSong("Soldier of fortune", 3.13);
++        albums.add(album);
++
++        album = new Album("For those about to rock", "AC/DC");
++        album.addSong("For those about to rock", 5.44);
++        album.addSong("I put the finger on you", 3.25);
++        album.addSong("Lets go", 3.45);
++        album.addSong("Inject the venom", 3.33);
++        album.addSong("Snowballed", 4.51);
++        album.addSong("Evil walks", 3.45);
++        album.addSong("C.O.D.", 5.25);
++        album.addSong("Breaking the rules", 5.32);
++        album.addSong("Night of the long knives", 5.12);
++        albums.add(album);
++
++        LinkedList<Song> playList = new LinkedList<Song>();
++        albums.get(0).addToPlayList("You can't do it right", playList);
++        albums.get(0).addToPlayList("Holy man", playList);
++        albums.get(0).addToPlayList("Speed king", playList);  // Does not exist
++        albums.get(0).addToPlayList(9, playList);
++        albums.get(1).addToPlayList(8, playList);
++        albums.get(1).addToPlayList(3, playList);
++        albums.get(1).addToPlayList(2, playList);
++        albums.get(1).addToPlayList(24, playList);  // There is no track 24
++
++        play(playList);
++
++
++
++
++    }
++
++    private static void play(LinkedList<Song> playList) {
++        Scanner scanner = new Scanner(System.in);
++        boolean quit = false;
++        boolean forward = true;
++        ListIterator<Song> listIterator = playList.listIterator();
++        if(playList.size() == 0) {
++            System.out.println("No songs in playlist");
++            return;
++        } else {
++            System.out.println("Now playing " + listIterator.next().toString());
++            printMenu();
++        }
++
++        while(!quit) {
++            int action = scanner.nextInt();
++            scanner.nextLine();
++
++            switch(action) {
++                case 0:
++                    System.out.println("Playlist complete.");
++                    quit = true;
++                    break;
++                case 1:
++                    if(!forward) {
++                        if(listIterator.hasNext()) {
++                            listIterator.next();
++                        }
++                        forward = true;
++                    }
++                    if(listIterator.hasNext()) {
++                        System.out.println("Now playing " + listIterator.next().toString());
++                    } else {
++                        System.out.println("We have reached the end of the playlist");
++                        forward = false;
++                    }
++                    break;
++
++                case 2:
++                    if(forward) {
++                        if(listIterator.hasPrevious()) {
++                            listIterator.previous();
++                        }
++                        forward = false;
++                    }
++                    if(listIterator.hasPrevious()) {
++                        System.out.println("Now playing " + listIterator.previous().toString());
++                    } else {
++                        System.out.println("We are at the start of the playlist");
++                        forward = true;
++                    }
++                    break;
++                case 3:
++                    if(forward) {
++                        if(listIterator.hasPrevious()) {
++                            System.out.println("Now replaying " + listIterator.previous().toString());
++                            forward = false;
++                        } else {
++                            System.out.println("We are at the start of the list");
++                        }
++                    } else {
++                        if(listIterator.hasNext()) {
++                            System.out.println("Now replaying " + listIterator.next().toString());
++                            forward = true;
++                        } else {
++                            System.out.println("We have reached the end of the list");
++                        }
++                    }
++                    break;
++                case 4:
++                    printList(playList);
++                    break;
++                case 5:
++                    printMenu();
++                    break;
++
++                case 6:
++                    if(playList.size() >0) {
++                        listIterator.remove();
++                        if(listIterator.hasNext()) {
++                            System.out.println("Now playing " + listIterator.next());
++                        } else if(listIterator.hasPrevious()) {
++                            System.out.println("Now playing " + listIterator.previous());
++                        }
++                    }
++                    break;
++
++            }
++        }
++    }
++
++    private static void printMenu() {
++        System.out.println("Available actions:\npress");
++        System.out.println("0 - to quit\n" +
++                "1 - to play next song\n" +
++                "2 - to play previous song\n" +
++                "3 - to replay the current song\n" +
++                "4 - list songs in the playlist\n" +
++                "5 - print available actions.\n" +
++                "6 - delete current song from playlist");
++
++    }
++
++
++    private static void printList(LinkedList<Song> playList) {
++        Iterator<Song> iterator = playList.iterator();
++        System.out.println("================================");
++        while(iterator.hasNext()) {
++            System.out.println(iterator.next());
++        }
++        System.out.println("================================");
++    }
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++}
+Index: Linked_list_chalange/src/com/timbuchalka/Song.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Linked_list_chalange/src/com/timbuchalka/Song.java	(date 1442907246000)
++++ Linked_list_chalange/src/com/timbuchalka/Song.java	(date 1442907246000)
+@@ -0,0 +1,23 @@
++package com.timbuchalka;
++
++/**
++ * Created by dev on 18/09/15.
++ */
++public class Song {
++    private String title;
++    private double duration;
++
++    public Song(String title, double duration) {
++        this.title = title;
++        this.duration = duration;
++    }
++
++    public String getTitle() {
++        return title;
++    }
++
++    @Override
++    public String toString() {
++        return this.title + ": " + this.duration;
++    }
++}
+Index: Linked_list_chalange/src/com/timbuchalka/Album.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Linked_list_chalange/src/com/timbuchalka/Album.java	(date 1585417840926)
++++ Linked_list_chalange/src/com/timbuchalka/Album.java	(date 1585417840926)
+@@ -0,0 +1,88 @@
++package com.timbuchalka;
++
++import java.util.ArrayList;
++import java.util.LinkedList;
++import java.util.List;
++
++/**
++ * Created by dev on 18/09/15.
++ */
++public class Album {
++    private String name;
++    private String artist;
++    private SongList songs;
++
++    public Album(String name, String artist) {
++        this.name = name;
++        this.artist = artist;
++        this.songs = new SongList();
++    }
++
++    public boolean addSong(String title, double duration) {
++        return this.songs.add(new Song(title,duration));
++    }
++
++    /*private Song findSong(String title) {
++        for(Song checkedSong: this.songs) {
++            if(checkedSong.getTitle().equals(title)) {
++                return checkedSong;
++            }
++        }
++        return null;
++    }*/
++
++    public boolean addToPlayList(int trackNumber, LinkedList<Song> playList) {
++        Song checkSong =  this.songs.findSong(trackNumber);
++        if (checkSong != null){
++            playList.add(checkSong);
++            return true;
++        }
++        System.out.println("This album does not have a track " + trackNumber);
++        return false;
++    }
++
++    public boolean addToPlayList(String title, LinkedList<Song> playList) {
++        Song checkedSong = songs.findSong(title);
++        if(checkedSong != null) {
++            playList.add(checkedSong);
++            return true;
++        }
++        System.out.println("The song " + title + " is not in this album");
++        return false;
++    }
++
++
++    private class  SongList {
++        private ArrayList<Song> songs;
++
++        public SongList() {
++            this.songs = new ArrayList<Song>();
++        }
++
++        public boolean add(Song song){
++              if(songs.contains(song))
++              {
++                  return false;
++              }
++              this.songs.add(song);
++              return true;
++        }
++
++        private Song findSong(String title) {
++            for(Song checkedSong: this.songs) {
++                if(checkedSong.getTitle().equals(title)) {
++                    return checkedSong;
++                }
++            }
++            return null;
++        }
++
++        public Song findSong(int trackNumber){
++             int index = trackNumber;
++             if( (index >= 0 ) && (index < songs.size() ) ){
++                 return songs.get(index);
++             }
++             return null;
++        }
++    }
++}
+Index: Linked_list_chalange/.idea/project-template.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Linked_list_chalange/.idea/project-template.xml	(date 1442564878000)
++++ Linked_list_chalange/.idea/project-template.xml	(date 1442564878000)
+@@ -0,0 +1,3 @@
++<template>
++  <input-field default="com.company">IJ_BASE_PACKAGE</input-field>
++</template>
+\ No newline at end of file
+Index: Linked_list_chalange/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Linked_list_chalange/.idea/misc.xml	(date 1585389628246)
++++ Linked_list_chalange/.idea/misc.xml	(date 1585389628246)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectKey">
++    <option name="state" value="project://e2804f05-5315-4fc6-a121-c522a6c26470" />
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" project-jdk-name="11.0.6 (3)" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: Linked_list_chalange/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Linked_list_chalange/.idea/workspace.xml	(date 1585419444277)
++++ Linked_list_chalange/.idea/workspace.xml	(date 1585419444277)
+@@ -0,0 +1,302 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ChangeListManager">
++    <list default="true" id="31542346-7a89-4a41-8aee-8364f256aaed" name="Default" comment="" />
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="CodeStyleSettingsInfer">
++    <option name="done" value="true" />
++  </component>
++  <component name="CreatePatchCommitExecutor">
++    <option name="PATCH_PATH" value="" />
++  </component>
++  <component name="FavoritesManager">
++    <favorites_list name="LinkedListChallenge" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Class" />
++      </list>
++    </option>
++  </component>
++  <component name="JsBuildToolGruntFileManager" detection-done="true" />
++  <component name="JsGulpfileManager">
++    <detection-done>true</detection-done>
++  </component>
++  <component name="ProjectCodeStyleSettingsMigration">
++    <option name="version" value="1" />
++  </component>
++  <component name="ProjectId" id="1ZkifTeWpSZqL1DqwHxje5zx0Qy" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showExcludedFiles" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent">
++    <property name="FullScreen" value="true" />
++    <property name="OverrideImplement.combined" value="true" />
++    <property name="OverrideImplement.overriding.sorted" value="false" />
++    <property name="WebServerToolWindowFactoryState" value="false" />
++    <property name="aspect.path.notification.shown" value="true" />
++    <property name="dynamic.classpath" value="false" />
++    <property name="full.screen.before.presentation.mode" value="true" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Udemy_learning.iml" />
++    <property name="recentsLimit" value="5" />
++  </component>
++  <component name="RunManager">
++    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
++      <module name="" />
++      <option name="ACTIVITY_CLASS" value="" />
++      <option name="MODE" value="default_activity" />
++      <option name="DEPLOY" value="true" />
++      <option name="ARTIFACT_NAME" value="" />
++      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
++      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
++      <option name="PREFERRED_AVD" value="" />
++      <option name="USE_COMMAND_LINE" value="true" />
++      <option name="COMMAND_LINE" value="" />
++      <option name="WIPE_USER_DATA" value="false" />
++      <option name="DISABLE_BOOT_ANIMATION" value="false" />
++      <option name="NETWORK_SPEED" value="full" />
++      <option name="NETWORK_LATENCY" value="none" />
++      <option name="CLEAR_LOGCAT" value="false" />
++      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
++      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
++      <method />
++    </configuration>
++    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
++      <module name="" />
++      <option name="TESTING_TYPE" value="0" />
++      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
++      <option name="METHOD_NAME" value="" />
++      <option name="CLASS_NAME" value="" />
++      <option name="PACKAGE_NAME" value="" />
++      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
++      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
++      <option name="PREFERRED_AVD" value="" />
++      <option name="USE_COMMAND_LINE" value="true" />
++      <option name="COMMAND_LINE" value="" />
++      <option name="WIPE_USER_DATA" value="false" />
++      <option name="DISABLE_BOOT_ANIMATION" value="false" />
++      <option name="NETWORK_SPEED" value="full" />
++      <option name="NETWORK_LATENCY" value="none" />
++      <option name="CLEAR_LOGCAT" value="false" />
++      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
++      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
++      <method />
++    </configuration>
++    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
++      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
++      <option name="myFilePath" />
++      <option name="GLUE" />
++      <option name="myNameFilter" />
++      <option name="myGeneratedName" />
++      <option name="MAIN_CLASS_NAME" />
++      <option name="VM_PARAMETERS" />
++      <option name="PROGRAM_PARAMETERS" />
++      <option name="WORKING_DIRECTORY" />
++      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
++      <option name="ALTERNATIVE_JRE_PATH" />
++      <option name="ENABLE_SWING_INSPECTOR" value="false" />
++      <option name="ENV_VARIABLES" />
++      <option name="PASS_PARENT_ENVS" value="true" />
++      <module name="" />
++      <envs />
++      <method />
++    </configuration>
++    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
++      <option name="BCName" value="" />
++      <option name="IOSSimulatorSdkPath" value="" />
++      <option name="adlOptions" value="" />
++      <option name="airProgramParameters" value="" />
++      <option name="appDescriptorForEmulator" value="Android" />
++      <option name="debugTransport" value="USB" />
++      <option name="debuggerSdkRaw" value="BC SDK" />
++      <option name="emulator" value="NexusOne" />
++      <option name="emulatorAdlOptions" value="" />
++      <option name="fastPackaging" value="true" />
++      <option name="fullScreenHeight" value="0" />
++      <option name="fullScreenWidth" value="0" />
++      <option name="launchUrl" value="false" />
++      <option name="launcherParameters">
++        <LauncherParameters>
++          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
++          <option name="launcherType" value="OSDefault" />
++          <option name="newPlayerInstance" value="false" />
++          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
++        </LauncherParameters>
++      </option>
++      <option name="mobileRunTarget" value="Emulator" />
++      <option name="moduleName" value="" />
++      <option name="overriddenMainClass" value="" />
++      <option name="overriddenOutputFileName" value="" />
++      <option name="overrideMainClass" value="false" />
++      <option name="runTrusted" value="true" />
++      <option name="screenDpi" value="0" />
++      <option name="screenHeight" value="0" />
++      <option name="screenWidth" value="0" />
++      <option name="url" value="http://" />
++      <option name="usbDebugPort" value="7936" />
++      <method />
++    </configuration>
++    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
++      <option name="BCName" value="" />
++      <option name="launcherParameters">
++        <LauncherParameters>
++          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
++          <option name="launcherType" value="OSDefault" />
++          <option name="newPlayerInstance" value="false" />
++          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
++        </LauncherParameters>
++      </option>
++      <option name="moduleName" value="" />
++      <option name="trusted" value="true" />
++      <method />
++    </configuration>
++    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
++      <module name="" />
++      <setting name="vmparams" value="" />
++      <setting name="cmdLine" value="run-app" />
++      <setting name="depsClasspath" value="false" />
++      <setting name="passParentEnv" value="true" />
++      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
++      <setting name="launchBrowser" value="false" />
++      <method />
++    </configuration>
++    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
++      <method />
++    </configuration>
++    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
++      <method />
++    </configuration>
++    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
++      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
++      <module name="" />
++      <envs />
++      <method />
++    </configuration>
++    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
++      <node-options />
++      <gulpfile />
++      <tasks />
++      <arguments />
++      <pass-parent-envs>true</pass-parent-envs>
++      <envs />
++      <method />
++    </configuration>
++    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
++      <method />
++    </configuration>
++    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
++      <method />
++    </configuration>
++    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
++      <option name="MAIN_CLASS_NAME" value="com.timbuchalka.Main" />
++      <module name="LinkedListChallenge" />
++      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
++      <RunnerSettings RunnerId="Run" />
++      <ConfigurationWrapper RunnerId="Run" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration default="true" type="JUnit" factoryName="JUnit">
++      <option name="TEST_OBJECT" value="class" />
++      <option name="VM_PARAMETERS" />
++      <option name="WORKING_DIRECTORY" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration default="true" type="TestNG">
++      <option name="TEST_OBJECT" value="CLASS" />
++      <option name="VM_PARAMETERS" />
++      <option name="WORKING_DIRECTORY" />
++      <properties />
++      <listeners />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="Application.Main" />
++      </list>
++    </recent_temporary>
++  </component>
++  <component name="SvnConfiguration">
++    <configuration />
++  </component>
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="31542346-7a89-4a41-8aee-8364f256aaed" name="Default" comment="" />
++      <created>1442543277607</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1442543277607</updated>
++      <workItem from="1442543279023" duration="1575000" />
++      <workItem from="1442549430257" duration="13000" />
++      <workItem from="1442881862129" duration="246000" />
++      <workItem from="1442883316334" duration="1679000" />
++      <workItem from="1442972418291" duration="1318000" />
++    </task>
++    <servers />
++  </component>
++  <component name="TimeTrackingManager">
++    <option name="totallyTimeSpent" value="4831000" />
++  </component>
++  <component name="Vcs.Log.UiProperties">
++    <option name="RECENTLY_FILTERED_USER_GROUPS">
++      <collection />
++    </option>
++    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
++      <collection />
++    </option>
++  </component>
++  <component name="WindowStateProjectService">
++    <state x="799" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1585416584804">
++      <screen x="63" y="27" width="1857" height="1053" />
++    </state>
++    <state x="799" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/63.27.1857.1053@63.27.1857.1053" timestamp="1585416584804" />
++    <state x="832" y="444" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585389627064">
++      <screen x="63" y="27" width="1857" height="1053" />
++    </state>
++    <state x="832" y="444" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/63.27.1857.1053@63.27.1857.1053" timestamp="1585389627064" />
++    <state x="774" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585419436934">
++      <screen x="63" y="27" width="1857" height="1053" />
++    </state>
++    <state x="774" y="310" width="424" height="484" key="FileChooserDialogImpl/63.27.1857.1053@63.27.1857.1053" timestamp="1585419436934" />
++    <state width="905" height="278" key="GridCell.Tab.0.bottom" timestamp="1585419444209">
++      <screen x="63" y="27" width="1857" height="1053" />
++    </state>
++    <state width="905" height="278" key="GridCell.Tab.0.bottom/63.27.1857.1053@63.27.1857.1053" timestamp="1585419444209" />
++    <state width="905" height="278" key="GridCell.Tab.0.center" timestamp="1585419444208">
++      <screen x="63" y="27" width="1857" height="1053" />
++    </state>
++    <state width="905" height="278" key="GridCell.Tab.0.center/63.27.1857.1053@63.27.1857.1053" timestamp="1585419444208" />
++    <state width="905" height="278" key="GridCell.Tab.0.left" timestamp="1585419444206">
++      <screen x="63" y="27" width="1857" height="1053" />
++    </state>
++    <state width="905" height="278" key="GridCell.Tab.0.left/63.27.1857.1053@63.27.1857.1053" timestamp="1585419444206" />
++    <state width="905" height="278" key="GridCell.Tab.0.right" timestamp="1585419444208">
++      <screen x="63" y="27" width="1857" height="1053" />
++    </state>
++    <state width="905" height="278" key="GridCell.Tab.0.right/63.27.1857.1053@63.27.1857.1053" timestamp="1585419444208" />
++    <state x="647" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1585389601710">
++      <screen x="63" y="27" width="1857" height="1053" />
++    </state>
++    <state x="647" y="380" key="com.intellij.ide.util.TipDialog/63.27.1857.1053@63.27.1857.1053" timestamp="1585389601710" />
++    <state x="654" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1585413349904">
++      <screen x="63" y="27" width="1857" height="1053" />
++    </state>
++    <state x="654" y="257" width="672" height="678" key="search.everywhere.popup/63.27.1857.1053@63.27.1857.1053" timestamp="1585413349904" />
++  </component>
++  <component name="antWorkspaceConfiguration">
++    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
++    <option name="FILTER_TARGETS" value="false" />
++  </component>
++</project>
+\ No newline at end of file
+Index: Linked_list_chalange/.idea/description.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Linked_list_chalange/.idea/description.html	(date 1442564878000)
++++ Linked_list_chalange/.idea/description.html	(date 1442564878000)
+@@ -0,0 +1,1 @@
++<html>Simple <b>Java</b> application that includes a class with <code>main()</code> method</html>
+\ No newline at end of file
+Index: Linked_list_chalange/.idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Linked_list_chalange/.idea/compiler.xml	(date 1442564878000)
++++ Linked_list_chalange/.idea/compiler.xml	(date 1442564878000)
+@@ -0,0 +1,22 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <resourceExtensions />
++    <wildcardResourcePatterns>
++      <entry name="!?*.java" />
++      <entry name="!?*.form" />
++      <entry name="!?*.class" />
++      <entry name="!?*.groovy" />
++      <entry name="!?*.scala" />
++      <entry name="!?*.flex" />
++      <entry name="!?*.kt" />
++      <entry name="!?*.clj" />
++      <entry name="!?*.aj" />
++    </wildcardResourcePatterns>
++    <annotationProcessing>
++      <profile default="true" name="Default" enabled="false">
++        <processorPath useClasspath="true" />
++      </profile>
++    </annotationProcessing>
++  </component>
++</project>
+\ No newline at end of file
+Index: src/NamingConventionsPackagesStaticandFinalKeywords/MyWindow.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/NamingConventionsPackagesStaticandFinalKeywords/MyWindow.java	(date 1595434822033)
++++ src/NamingConventionsPackagesStaticandFinalKeywords/MyWindow.java	(date 1595434822033)
+@@ -0,0 +1,36 @@
++/*
++* Created on 22-10-2020
++* */
++package NamingConventionsPackagesStaticandFinalKeywords;
++import java.awt.*;
++import java.awt.event.WindowAdapter;
++import java.awt.event.WindowEvent;
++
++public class MyWindow extends Frame {
++
++    public MyWindow(String title)  {
++        super(title);
++        setSize(500,  140);
++        addWindowListener(new WindowAdapter() {
++            @Override
++            public void windowClosing(WindowEvent e) {
++                System.exit(0);
++            }
++        });
++
++
++
++    }
++
++    @Override
++    public void paint(Graphics g) {
++        super.paint(g);
++        Font sansSerifLarge = new Font("SansSerif", Font.BOLD, 18);
++        Font sansSerifSmall = new Font("SansSerif", Font.BOLD, 12);
++        g.setFont(sansSerifLarge);
++        g.drawString("Packages submodule", 60, 60);
++        g.setFont(sansSerifSmall);
++        g.drawString("Student Straticiuc Mihai", 60, 100);
++
++    }
++}
+Index: Linked_list_chalange/.idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Linked_list_chalange/.idea/modules.xml	(date 1442564890000)
++++ Linked_list_chalange/.idea/modules.xml	(date 1442564890000)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/LinkedListChallenge.iml" filepath="$PROJECT_DIR$/LinkedListChallenge.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: Linked_list_chalange/.idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Linked_list_chalange/.idea/vcs.xml	(date 1442564878000)
++++ Linked_list_chalange/.idea/vcs.xml	(date 1442564878000)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="" />
++  </component>
++</project>
+\ No newline at end of file
+Index: Linked_list_chalange/.idea/copyright/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Linked_list_chalange/.idea/copyright/profiles_settings.xml	(date 1442564878000)
++++ Linked_list_chalange/.idea/copyright/profiles_settings.xml	(date 1442564878000)
+@@ -0,0 +1,3 @@
++<component name="CopyrightManager">
++  <settings default="" />
++</component>
+\ No newline at end of file
+Index: Linked_list_chalange/.idea/codeStyles/codeStyleConfig.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Linked_list_chalange/.idea/codeStyles/codeStyleConfig.xml	(date 1585389337667)
++++ Linked_list_chalange/.idea/codeStyles/codeStyleConfig.xml	(date 1585389337667)
+@@ -0,0 +1,5 @@
++<component name="ProjectCodeStyleConfiguration">
++  <state>
++    <option name="PREFERRED_PROJECT_CODE_STYLE" value="Default" />
++  </state>
++</component>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.gitignore	(date 1594037614769)
++++ .idea/.gitignore	(date 1594037614769)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+diff --git out/production/Udemy_learning/Generics/BaseballPlayer.class out/production/Udemy_learning/Generics/BaseballPlayer.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..d2dbba8a80dcf1a801591b370311f8d9055d7770
+GIT binary patch
+literal 345
+zc${@lO-sW-6r2}hqOsaqvEtF2A7G9>RC-X*ODKhw-e2NUSGF72q=G-oQ=tccK!23<
+zB`tzTcj4{Kyf?GEtDogJfG*k*_RtK`3UNvZ9<<eEpKyMiyz>XghV3*Sl}_7f?`A^q
+zpYm5lXeQdK!F-k~H|Erc(oXV>&4it<_*V4GH(d}elNV)`(^(Nea-mW-W@z|Rxt@$z
+zp4Ik$*Ab#oK6jaV)>YQoU+aA}-++&O!o`kwdFO9uqu>gj{I^;pTij9uVSUj(IfL7~
+g1?WqVhfr#?QDrW~fuPQoA4&%`Izpq)I<7q@Yp(W8od5s;
+
+diff --git out/production/Udemy_learning/Generics/FotballPlayer.class out/production/Udemy_learning/Generics/FotballPlayer.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..7ba5bb946466d7b53c19f283db7a69c81917a273
+GIT binary patch
+literal 342
+zc${rd!AiqG6r2~+MAO>Vg2k&htI!-hRC+12mmor=_m{ZTmF)($so-aM5<K_;ew6sK
+zEkd!o@OEb2o7vs(pU*D<x9BA}LMKKy#u*{H(^gkw!ueJ9!mpefw##&0Ic=At!GaJ@
+z$|ptWWZJ6x%_>*!k#i$TFDnZ+3wFBZJ29-D^_p;z&6HJ67wdFdRyiB<VE9eBkxW=#
+zdH28D2+6$MxI#^}&);(n>+u#sGzk5};qu78##X^40{LvcNVb@zM#9FT2XaQ&Hy@yP
+dK>=c^$ySxQ7{`M8JANV^c+^D8XPtUa`xkS4OQZk*
+
+diff --git out/production/Udemy_learning/Generics/Main.class out/production/Udemy_learning/Generics/Main.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..2f80c2cf9bcf36d0cae86edb28fbf36764067978
+GIT binary patch
+literal 1797
+zc$|$@Yg5}s6g>;JB?}R#2q8|>)NP@)$-@QuNMlMHobpI*LTU;%^tG0^Adn@Gw9X9w
+zq<<s*fM>!?e?Wg!r*|zI+r{qGGupd*_uRAR-n)|j`uokF06s^}z#LYR_ynKo_{<>B
+zV+~*Ecw!)qyoOaBUmDQWbWO)s1}4<>YaLGw+(2Fp>uM-iM7OD9OUJf`=Ni6cNUS=Z
+zBi9(lGueHHSi!FehN+_CiJfM>DuO*;b;)BDeVe=cJaE*y<BZ7@CsgQ7;fcVp!(53w
+zUY<7UWEpN{j*6%J70<ccJI<A5;CRRR_Axv-rofpY+oa^wC+^!l(hXl$x$Ew_{9FVI
+z(BP6G)dQ^aPz)gAb?1aT40An9*|%*G^bk_;`qF^*J@RySmOFNZk{HbVywS}*I~ck;
+zO7I$yE{??hOS=MRMuG>DP*9`nHv?O2I7(1bRsWHysEON1X(*Z~VTVEQ5@>i~Vizwd
+ztKnj)xX*o|!U;1sLL`B9RR?B=>Y~b(qUui$q(S<WNqa$h$;5Xko7ltm4AbkrFGCsd
+zMoGvMzZOm<u&?95#1E)2Or*O}%jrIfm45nC`?gK@?$V3usj%gMt9%|xK_bTerjj0A
+zJjc)N(yfzp_oC*{3~@7P4YhLVjM>ca3!UV(S~vZhef{gSDtkz+@|yK%8MfcHZ3Blm
+zqE4_z<W2t;_-WZK5tYBr&qTrZY%UKRc|x;La!-az#dh|(4h=u5n*GW!-`jJ%SN@sk
+zKq9gYZc9Hn*HER`zv%mC%?5+H?UCey%fnF63BUK}+2M%Vv&FrdE5i9GFn?Xfs6h4R
+z41xE50;0C%v)3sKbot7T6qKaRu<*aMG2Hua9Nxn%`m(Cu7?^rxXuLzK99c#-zSshL
+z-QIqi#zfmWj=MCP5diPt9@!+`MLG&*3xv?fSN{WJ*7yZtmxx!aL<?H+5_-i-wqTSl
+zF;TJ17AAKtaid~QwJ`l8mWtiKz*`3tmx^7$dV?9D9Z!gx3K37mA1FlIGpjs_RN|rX
+zylx9qB9}>;lB$y^3kHduz=xQ`68!-@#x%CbTPEg1%3V<QE{RqNZAGG~ChwEAaD)#q
+zPbuBSODqt>7(JW#2pKwO39HCr5iw%AgZng#6PJz$G)v$i#iy@OkFHR;E7Zq?Qv0f~
+Z%lL(?K_~qLj-ROq&uFdF`Wt#S{sA$4!m9uP
+
+diff --git out/production/Udemy_learning/Generics/Player.class out/production/Udemy_learning/Generics/Player.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..5ce457a1a769a8aa4c0d3f36ae63cab14dd32cc1
+GIT binary patch
+literal 448
+zc${sJ!AiqG6h-f(X=BpZ+S=B&yCi~Hx=`E*brY&k$$k=tI3-PBnhO4vf+D!^1N<oQ
+zWfBxr2Hw0obMKkQe0;vW131Bf0~2E#9qe0}SeP=H1z!t>akS$1Jj{8Kh099GB0FX1
+zoykI0=L}Qt@3kLO_@ca}@Gz2vSZvpcP&YiuHLgr~9&;sY-5#3No!l^tqDxT-CDToK
+zo%08w=p`!?)j|(4@%;ZrahBy)rD85?P`}9?*FF~(W-hwu(Hy_P40}JQt7Ik8ilO8A
+zF%IbqO!^WAqmEK%P;X&}s!eK6+MwMDUcrK+7Z^|4<4_$?7UVU_ZPV(Lnl)~?*adV~
+hQyHxRhAlJH8t4YkFdn~gJ$>kEjN2Gm42`c{qc0`zQMLd8
+
+diff --git out/production/Udemy_learning/Generics/Team.class out/production/Udemy_learning/Generics/Team.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..454862fb1e32624bc9bd6b52dd7e627b31dbbb79
+GIT binary patch
+literal 2408
+zc$|$@TT>KA6#kl>y)xYKhM=p0>@EoyO`-xJL5xZQN?f8rbFtZN*>PuQHZ#2%@)z<4
+zlD9mhiWeSYO0mkM@|cJGs8r6G8I}b$DcP#i-RFFLF5fvl{Qb}CKLK2Zm%$)DNMitV
+zEIwrM5sUdGu4Rx2Z3`@}^YP;}Zs2AHx3Jhx4wf^xjXP{u>4(5w-W4+hUQOcjB<=|q
+zj;twx{-r1KshqN<voTfFp5<)J2qfyZ+*D-&u_zFG<~jtoU0(~t3BrbCP1V+w=L;MO
+z9W=CMPtALt++4DJO+L~^Yr~Pc;ZcyGc9_}K)tNaCHfuSSo+D4W!@1-+(*?IoPI{Is
+zN8N64*j2f12f4c?Y2TBc#pg(A=!)et`lfP}XO;Y^RV8Z_=jeX)W_|a@;C|?CUdaum
+zZwDL==JM@WO3QM2g^BVQvgah!&Ey{t#8J<7A$^As#4W`V=qhSisxHfVlu#l^YQCOv
+z8nqBh6~%IS>PBZx>Qd#d@*B3^A2uj+agiBIx%Im1C`a?Qp^GJ#yO7ZpWqHvd;mInM
+zAuv9>I(;a!xt4nGtUpmD?r5gyHoTI$VR4RW4mZgt6It9haSX>zoM17;;v|j>476#x
+ziD8VGID(@lzQ9@%4@^A7mq~nOB9DSV?={!ezV>8&S?P*f_InceI)!gcJc3MO-9!mz
+zOq8*ff@0-k6C1c>;$6H)T<+t8yd5kgAd)#MxsH~W;~yBjs9dJM<!*7)*NWW5h|cEB
+zTkg~f&4Q+h2uG~v0FN0|V38k@owo^6-ps1+h=NIhV>MY-3$9a=`o5(rwDYxeG$nJs
+z-79D}egkcCpsB6%$)*<@qw%CSBC>U>s><2Nu9u|&sAYw~l{PWnFsk8O->W2^F!2;*
+zbPr-VPu;4DkYQ;zWJ$Z;W)gK8xFy%EHfUomIz-ZfEqz~6y+5|*68Q)le@i-LTlu5m
+z#Wo54*F}EYZQu{vbosE01!>zwORJeAz7-gIquc~e{XY(8=+iq$-{k~4c=W-4^kRbb
+zM6?b?>&am4;CDiw?o+}3G~E>R(9V!NOPU`LBQ20Gyn-miUZR6VjD^7>Uick}wO2^K
+zM5-|H66xmzj^P~1vq+KbfkA7Ue%;{z3!N0Si|oC~p%0^kI2s1P7|sW2<%7iOgF$<f
+z*3g!tRq(@&5}T)$ZSlejq<?J&O$5rpz;Spv9yuQ0rwQFn;4KQy?zW;jr^#JvVh5R@
+zF!&ofX=lEse6fS>*mh*=xgS|L^lPewt;ROpHi8_6C<{=Toy7PM{f6l`MjT%uj`s?l
+zZWcU^w=o$Nyl2ZbZBt~s5L76Jqc*)ms*AW3adAE3BE<>rpl|yC9p_r;NFAah)ue+y
+zY>~%5s1$?450CtU-on}o#EeJO_br?r9{D-c#90&HLKhzlJ{S{!Au}OHhIi2ayh%qm
+z2j_|Qar9H9W7Ne_qJEM}yGZgX703A%!iX)jyiYq3>@E|XAu(5I7i-CWm#PavwMKtm
+zIz#%aO>S<{J;rgfV(|*e_@jgTTx#LRJj9O~MKB`nr!f<(v#8O^(W-D^Q?oyzb2nK&
+KCEZdWKl>MY!uZSp
+
+diff --git out/production/Udemy_learning/Generics/SoccerPlayer.class out/production/Udemy_learning/Generics/SoccerPlayer.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..36a93cf76129ce5a1779578daaf29d4346b8a3d3
+GIT binary patch
+literal 339
+zc${rd!D_-l6r4?C(nhTsu%5kD1#|2{@lvRlAVS3Zx-RKT+`t+IKdYyL2S31%5?>N2
+zg?1O-&dk1<eS5i{&H&!vdw4*@Mbkx#!5J&9vI#@`HQew64-&59Aj*u=@u;_Cu;0_Q
+zWN3s+%h`Url4ikI2`PS<3Z5*vQ8~YhcJ`@u44rT)wKPiXf+!V2nt8&H(u}A<^KD`N
+z^B98{rF$dfhsu*$zm3DZy9OH-8uZ_2n(#+26?9?IPxHlSlb5PPY(lz4r_&#NgMAUQ
+c;8OKUmHJ#f5_-AwC%Qp_s;CuN^}_Rf0~KCMasU7T
+
+diff --git out/production/Udemy_learning/abstractClass/NodeList.class out/production/Udemy_learning/abstractClass/NodeList.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..fb77d604ce3d214a2d10e63787a876eb4bd40961
+GIT binary patch
+literal 276
+zc$|HWy$ZrW5QJwnn)nm3vd|Yu8dF+W3W6XC3Kn*kWC;n02e~s3XW;|*P~yd(!a}#$
+z8JKUF+x>C{FvGw`--b)D6V^K^HDT=eYY{44ibyYVp;WL=m0oEs<^~gSTwB7#`$hRj
+zLbv2XR{TO8LseWV{@Xg3)?S{=h?i+@P<JC^uH$JYDnS^17e6UsSm!}5PD!v0Gmdnd
+dKxm*o%OW&k8AE8H{Z#v{4myS~tL8V*djL!9Mvnjh
+
+diff --git out/production/Udemy_learning/abstractClass/SearchTree.class out/production/Udemy_learning/abstractClass/SearchTree.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..e0ed1609f5f412cdeafe8ec03da8417f65116e1c
+GIT binary patch
+literal 1126
+zc$|$=O>fgc5Pj>Ubz<D4q-kgqN}Et1AJFjGf<Rm<Ayo=3B2^CDHqNSbN$hCtMDU+D
+z0D>TK;K+d=g_zw~p$!cn%j22ZnKy5q_s7q#-vI33kp&CuNhGmhp@@=2-qj>FaZQES
+zE!;p^c@+~?6Ezbz8RF9SLxz<GZwH~|PPp6UK~QhFLAV!+-eZROC$8s)PZ<j3Sw)o=
+z0qy!7!H{map4cDs+Cm=kc9$}lhVSrhi%VC<Q8FGLy8%Of3b84;bdC?D5H#3465&hD
+zE?=(9=4bLwN4b9`_=-lly2z5E=MTlWBSFPOAp>Hx&<wfr`Z@1M46UX=kdAofsv!NF
+z*wzUjavLe!vSDMv#FmXZayAM`o49S`4({5xhx;ZT*x1I7jfcpQ!m~DISX7YpF87Y=
+z2kjH#(8js5)%&EaT81H3R$}MQ-;);VOEGl)L2w4O`8Lp}F@Hc1%ME?v`t=vm^}=Q-
+z1y@2QNbeT!4v0~f1fM2F6-(zd(humXsOu4O`OhwWH$3qsq>GoN`^j*DUPEa|mv)Z)
+z6w+iDDLSCMLEm)s3s{wXhEc7N`9LWH7s+N2Cz~W|YOoZ6Whj#yw_yocKzj<F(X&iv
+zWAM6;X=L>ijQ11Bd7Vsa7<*h0!7yCHO4PiqIa5#U-Bf4x6aiyGz`$xmApaj2tN*|#
+zOce4Xg-U9P?^vtWMu?3N|A;yA=0`A9CP5h`T1?N#(MG^JNwz^aMM5o+-8?n3G?`h7
+PguAS}S&`f|P36ijpVHOc
+
+diff --git out/production/Udemy_learning/abstractClass/ListItem.class out/production/Udemy_learning/abstractClass/ListItem.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..cd04e0aa624765961bf4a6dd893df1c70d7843cc
+GIT binary patch
+literal 836
+zc$|GwTT2^36#h;!*=*LeUaF~@Uc9v=5e)RD4=uh3f)H$>68bt>r*U+XmEB3`&uT#_
+z^uZs{A60s0vR#TA88~Oo+3#{@W`F<rbqnAf-URUQs)h<SZP>D5yNaDEb_umq56pR2
+zk1h#oUD?k}DkF0k%Pi}3b!Lu@8onp^vHEJJsLDjfV?|i*UdV~;#Bwy~eC%JS$S}_P
+zphwyq5LTP_Keu`WahRMjd4aXm$#~dT>8b3;PA-XL+>@!cb>0-_TxXm{>YE{KG+VPL
+ztY*rbIN00fEYu@(|0-1zos8LSj+H(YRV_+}S29(n3867t`IsdJ%Jimpv%-@;a65ih
+zAcD`yIE~biw#S_Rr?YQKAws+kQH39(W<!8ELj7T9!s1;cLb=)Mi7kF+kAHwNgw^7m
+zuyQW5B4;1OR`VR6aP<WxUcgHGC#X#~DA`bM@7+NB;C=}U9P6wK))7vv!ps0qS#8mM
+zb9^j07rV1QB!FecFo8R(F4yz=SzfPUo$>s_Xyns$I1}ee`x@eVVeh$S-PwgxKyF8P
+gUL55hKZ<u}_`r2HnA7-gV6Pb1n-0wDh2y;Z3mRmh*8l(j
+
+diff --git out/production/Udemy_learning/abstractClass/MyLinkedList.class out/production/Udemy_learning/abstractClass/MyLinkedList.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..2df11a2041574971b3d44d0447a7bcfd1998d65b
+GIT binary patch
+literal 2367
+zc$|%uT~iZR7{~u71U7^<!SJFY&`1$uf}*y*Le+wz*nlVqzE!&<M_H5Xrn?(PdedR1
+zAE48jj-8Iv%W}hoc3L{)MK5ut-=$x`acci(v!tmC)5+xQd7ksU{?0kOfByaA4*)0e
+zMHH<#*o-*RQS>9DhCwwPQo~_23^n5jj;h(Q1bt3K>2@jsffEs&QNpl>5e=VcI4cl#
+zY}*sqoi!F*&oOe|SkZ9Zp{(h86P_#$3p9<Gmg&)SZ)z)}gL4ctX6L0qJZoBVs#02z
+z&aAOeq$ZKIb4GE_a7-l!%CNU+x&qyAMVwrwdqL(^WTw_0O7FT~Usvkj))i_-KCh<R
+zmUvqrnzKt~*5TTgfS6zvrtj5~t2mCdylRXcGoFzvOd4gsR1N3o=*W`2B&+KYhF_A7
+z%PyibcE!obaZ|Olv%dJlkBlWlM?22zNT5x}rx?{ShHf1fa8bv&8ZMz*!(|;4xT51T
+zWCdDB*{!O-JSn|JJMYGuFd4y=j;ol~a81W`%tSEDDpi)G=_X~V>@6$(4N}^gCS$9T
+zhKh#uaOmp7BblSB^S|~}+`+1C=ldxNG^EsCH&;Q*S$kXLim)XgGoI#3Z_1w?+uD5V
+z4Q`?Pv?G^HyTU^gDc7cTJ<Tk;)e7wj({yD071JJ?c1+8g@f>NWND-c>IipzNezo&R
+zy^UlziaE^l6pN%$q)UD|DIfbpc9o2R9J8&Q;mw=gB4@5=SRQK_NWB}TJ~DHg)<foQ
+zdrwJ3Q&v)uC$b~;u9u?SdO;SYM=7a}Yx0bE%XBm6oQ9j~pxhPc|9922mh6HI;#C_M
+zCu7@L)^LxvJ8Rp8N?Aakuq^5L=q0=Qp*}+pqk1MU8&<w3-TtcM@Vhl{<v6=smhUmY
+zvpv2b#F$Ym&ai*JyY36@|6jEU^lop5eSD9$^3AxD|B$+<d|x(l-i{8Aos_OpAL28f
+z{v9GMenTjo;qaWQ5O#4)Ak49eV;IfQ5JLpJsp+h`VGp_hf2P9oy@S2z4uTK)GE=61
+zMd(>AWRtJd{V;mfAP6JSgWjsMxJ_%7`iXLWiKt&!cuh%@gBw^G%&eo~Y|m5l4z44-
+zffn_cT!mB%jTD;Z!)rZ1;R2`H2Kv=Qt;}cCOf9QP<GeC&nqNg%Muk=y_4JiN%3lzn
+z*!%)fU>z+DYpZWo8rE1^gWt{r77rrUNI)lp7~!_Dg<bshu*rRFEk!Cv*xDI<fD!cJ
+zJilI-upiSHz%3lWeOfGH5MSaDzQSRAjiXq>aeRvt_ztJ=Jx=?$(nQjO3Zo>Mop5UW
+zpD>T&--d4(zm4!dq_zXivDXM|=zooF(UR#Duh1Hz+5Q^mc)+=o*+8P!s_wVC3Hy2g
+z`$wD{RJxxLODo*Ovx+{&Q%MS0buZ%Tv5A?x@U*r&jf&p0I(p+I2b^UI=UDY9yX04d
+zACW#>B%4cQahbhep~No;e>Zt#Z{r&7@ssd?(juh-?$+q^G2$kjQjJb2ptBn{>gcp1
+z(zZz_DSAcAD+mQ=pmseT2iIdD^Aa(_N$en%RqP?Fj)2uVVtj<Nt8e~#UhArhha50i
+z&jN2oo*5<g?E$eD>Tb_Kt-gWa_Nc1D2*o=X=YW4<Qn<rslxw%}IeXoMk0{5u@-cPC
+H{qgia9^)K9
+
+diff --git out/production/Udemy_learning/abstractClass/Node.class out/production/Udemy_learning/abstractClass/Node.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..2e076bf95503104da759111adfe48a5da47a7147
+GIT binary patch
+literal 1147
+zc$|e)O>fgc6r4?*xN+Pzgd{Z$6iWHX2Q<(NhoBy)gcK>1N~v<=urW*O)`=r~6Y-;Z
+z00~lw1LDMiABA{pTcJ%8u%+F7<2UnW->&@Y_qXo=USQ8a2KO>p!L}Oit8hoh0|O87
+z$Uq8@byRdz8PYGEp(FPhik0>$pYVpuhyBLe-l?!<v)X0Q4!rk*VZH4P#o>6+6aF#p
+zxrF4~p3U7Z_Z=0-pe9e8fT7Uly+HchmIp2mg2o|fG#OG8?v6w1wNgYKijR_Evr?TS
+zx1B(?q!>_+9te3DrtMXhW&MM$IW#j^%QIF+zL+@PnD&sRT1T@eV|#-U_r<ZtP+nfU
+z#jx6u+&+85M{!GxjyLvg@!C;AMs;FW?cRietce;d6LmE_!Bd9Z-^O&L?+p7oc1<+!
+z%tRT_sdLx+%1~PDhN}5aU!Ks(ozc!*@j=GRzL4GMBns5+1!s|)$A~1o$k9A0LYs3p
+zC`PL-Y|{nIKs{+NwP_kniuRG9m(W`M0_-!b5?H0th)}wuI@V}aisN<UVwD@nlLl}T
+zg;=XWvqDm}FGzfvNu@(D8_Jkb!c3+}!V&pZY{aP5zanu}Au^LAUjC99W2RzY16HVf
+zYoVFsyqS%KW;Pd_NnTZm%-km4)_=^DDJ#-@7wcK|pD5NYp#4CqK7}?#dJ6qKaZcZo
+hq52xlzz#I}N0d;xRKc26u;L1LLKah|w?cb&{{SVX*MtB7
+
+diff --git Linked_list_chalange/out/production/LinkedListChallenge/com/timbuchalka/Album$SongList.class Linked_list_chalange/out/production/LinkedListChallenge/com/timbuchalka/Album$SongList.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..21b61e03399d2d369b0985993a7fa82e64295777
+GIT binary patch
+literal 1792
+zc$}40T~8ZF6g}gwHD(Ep15Wq~v?Z-EI41o{1B8^2q%kq1i3w@a_F=qiVS`z>yX%Vf
+zKlBGged|kK@<62o)K-f6++We(QAJJ9%x(-3rc!0;dhX1<=bX9sdi>`<zdZ-=F22m*
+zBrbN*e3U^Bmki8gkiaFiGpkl}%3M}vz8h1xqRhtz7BVn#HG@T5Q)kzexnba@fr>!V
+zZ@L@4K!5d-{8pA*fzv22c%J;O>iEH|Kv&J#aAnZ)Y=Kgzn7OLe+%5;scD-e7%Ep!~
+z*N8Yf&)ih7>G<Q*0;i9}EHvt^Z51--xK1!HFjzPyW@1esvDjQEe{a=s?UmMc-S$>x
+zy}_MawQ0%5n)DpyN1F*nE09(?ltKZs;<~oC*pR+&^JJ_u)%dFf>Wa(tb%BASqV(k^
+z9+E{BP9WboLZGJ>NNa0ZejTYwf91IAHJwu|goSKKccWYjJV!wuhtq9s+SZmGr6vO>
+z2rqsF!N8JITsa;o@Te%PpMX%!rzCqvAR{fy_SvdwHf!maP8^iyf2fb`Oe=GN9JOZ4
+zv+Ns=lAqCt=M|2LcTg~K8fQ!l;FiFt4nt<*6#7h5v25Z^Wma(8#HYAp;x1|eeVyn{
+ztm2-5H52z$%4c|B;vqga@P)wH|GuI?_TY}U>yK=UTe$;amB997&}13o1vQ{)tLX;P
+zan%p$aC5^{Juhjeos%z2RF7h@TE?dISL~fY!>So`wbS=1{xBvHH|$_F9EaB<qNcod
+ziExiUIQyHHZ1`$^o$qZ;#6gG?N=dJDB<k;2ER6Bp$?;{1@x%6jf!fPwv#On3C%HF(
+zLE0gDpCHatpuafz46))q;>F*Qc(9M;Go*gesl&7<7zWIs3$p~B!w5Z-5KP2byuok5
+z8F(uKm6{$nQ+$fl<Q|O2NXDN;PWpc03D4phH^*lWxPophpofoP9@jK>KFp7>)oL8)
+zi2k<D6g@oVghq5f&{Hra#juC2<*8qh5qOLdF1iK&fVooILl4PMP)TX`=a+wp-L{52
+zO9I>^RE79Ugsox{%UZ`6V}__~g6ygSrM99Hii`>snTWqY+Q8K4-;^RKtrSUX(N}q+
+zLzjnt#NcqKu=gkQs@3owvJ|&_NK9CeJ50OFPSz;mURwxZ+VrD1k1|POJe}q$riG*+
+zUSLFI)40I@rclC6)QnVdavz#0Y-vij@8Y3yr|@2cp2GY3axr|M<3A)nkm1frPRuA`
+F{{p$8g)jgB
+
+diff --git out/production/Udemy_learning/abstractClass/Main.class out/production/Udemy_learning/abstractClass/Main.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..5eb1bf351c330eb294669d8da1139efbbd015b01
+GIT binary patch
+literal 1834
+zc$|GzOLH4V5dKE5mDcN*90g>@$v7dg<VR%5@=G>JjEzCCvW*pN95^u6Zk$bIt!sDf
+zA{P!6Cw>7Z4jkZ|9At`A`3G>|$ejy6f#Q_Vvy00w3Ds8j%-8*O_e}S$etZ4vF@PCt
+zsp!MFg1ah0$Vo9FMLv!~9Fr<WP>f?r!L$k$GtxAhz#K|(%&S<yyDIMCzJwnrSXA&H
+zLu|onSl&H`a3;IS5LvPflc8I;8s_T3-j3-!6gzc7lDb_J^-bYea{nI~@t#;N!xdfZ
+zxSk_w-cnt-ZmuG%#ynZ~NHbi`e6Bwghay)Ojon<;bF9Yhyv)U18TOKih{D+=TVD$v
+z8S9qoF<iTt^Es9L%rtbel2=rE6&O_4=Pe6Q5Y_Ni$0<f0Q6tcuRZrBORm8r3HU(V4
+z67j3{fm1VAEP337JlI`XlZGouG4!{uL3%7}cpoboKEN`=%3{NCOjGb>OEd&u67>Va
+z61*aBl$ULZZP;H)#TO07_gM=-!>S2>!lrBE8a_msp*Y27_!OVyMLx^tc%Bz%J<BCJ
+z!SnRwd7hw2UMTRXDPAn{xjEt|&lkN)4VT4!q~T-e3Mv{_u|~IFHEVXm;I8R$`!Scd
+zL|3w|;S+2qsA_nKPc>{pzZ9|Jx4q}IcWXOO&6;-(3fjpqkh#!Dd3R;c-18?y*)_cl
+z+a_v%Cfm-DAx`k2>A2LQsJmac$bUG~V&+=TQ|hc|P-&1`7>11hzcoHOf2ilKPYBxw
+zR6;6<YuUMVO65^PQ^;!jTELWUU+(IS3k98dU3yQ^a>FxsO@~;AG)CsyWBHbqv-%|u
+zN~b#Jo_%P_dNG6~eLv(c1SUtA<W<_`NHfyWkt47dzWFVZF&_-$ZIW8xfHe9^Coq6(
+z0Xg&yBIp3v_A7+8*%89}=x7s>CZZ=mB^g^CPby8sOOa%v6ir8iO)MQLDQV?+Iv$=*
+zq!Ow4kGP&zQi(!I9eo9LJFOm}qX}*6+XVah&7UV>U!pVF)kJqX){Z^af;~1Cuzg$X
+z7xehn-mP<ZybT^cgUh{gVIOV7>q)dTw96E^jKA=kARF>EZje;y`s3&&*-vd5L?>>e
+z3t4odfF9^%c|`h4>hu%p@IE!^J7RxN`Uh&?PsD0c`;LkEJFepoaQsD+@i%U=7;dpH
+z+-5g$hYcgcW|3tNFv`|3#y-QiKL}q?UY+s{5?7_jCo38Ns*cOyAparUr19uy_i>9>
+zAq=twyhDCrie998ISoygP2dh;Q4}cKFkvxdh@VH~4gF843bG19{xjmQ1DRzsiT_~e
+QH3s|*Eh*KgKec230_v!nR{#J2
+
+diff --git Linked_list_chalange/out/production/LinkedListChallenge/com/timbuchalka/Main.class Linked_list_chalange/out/production/LinkedListChallenge/com/timbuchalka/Main.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..e8ff127862723b9f163e1c2918f5a05892ec2a5a
+GIT binary patch
+literal 5161
+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
+
+diff --git out/production/Udemy_learning/PreviousImplementation/Ferarri.class out/production/Udemy_learning/PreviousImplementation/Ferarri.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..0119c7dd6c331109316d22b1791e999c1ccce9cf
+GIT binary patch
+literal 834
+zc$|HbUrQT76vfXqF`KNbv9Z>FRk!wEl+wJkNL3V@RtQ89EWXOP4(YVJvtf23__5jt
+z1t0tX{ZP`on~0*TyD)R_<;-u-VfNqk<rRQcthgv+wt_jlEMwlq0v5~g%XsBr$-!$v
+zX+vpcHwiE5t@bZ*DjK2CoyLJRN_W<m4++I)d?E?ew$gI17adFULmY=ZskP%kgonbY
+zv>yzM_NPh+etX}@Qx*4;R@4n;B()V*#k#R0jW9;76Dq-3sPu_6ET<Nq)FR5L4_pvN
+z5-W`Tt~>03P^hQA-0dKcA>%BMhQAsqe)I4k?wLUDsMJe!S15fHgd#~krce(RxDMWU
+zc#C(0QTD=Sl%K&Jy!TMYGCR1Li#s3iZpCqzu<&#|!t5i0rZ9x@I}y(kD<jSn_bg$u
+zA6~_ceNJvUzZ4PYpU4>#oNn5Mn$Okq?hZa2zW($ng3|E3j&RpPfnUH`nfq`7`orZA
+zJYHSiflnymGe)`c`!bB7nqeG_;~7KJs)h+x6P{yofL+acpz;?(wZb`y_rYJ-%~}Tb
+j`oaO2|Gs?4a1LaXAzQhSseDK&2hwE7w_M0{rkwc?`AnuC
+
+diff --git Linked_list_chalange/out/production/LinkedListChallenge/com/timbuchalka/Album.class Linked_list_chalange/out/production/LinkedListChallenge/com/timbuchalka/Album.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..5d8e96afc59d61ec9b088a192b433c8eaa2f7f39
+GIT binary patch
+literal 2300
+zc$|$@ZBrUo6n-wC3+oyMmBg2(o7Of6D%6y|X>Aj2T2i96SX0y2%d(NxWtV{^GyW&P
+zq*Jj|XZo=p`kOkPp0f}_WpO$T_vPGsp7T8SoO}1Le}4Z1z#1GCx3C$*O?<-5rwZ<?
+zh~NQFwiIluQ1BUB9&+=!iZ4)z;Ss)6P*gFF%_tsozr)QgH+w3+!q>dJ6vciN-zYdx
+z@I)Y5a-E~1)$|0kg5#KtEn7C5W>X;I$eJmTC?3n_GHXlcC|mLxmUFZ&Fe)3K?=#XQ
+zciOBM4Y!u{tXjEcRHc0)v-j<CtG4(OoqaYe$MQA>?xqGI2Q5nnL}AOV5QT}N<(NCI
+zTG?#u%d+j0at&!8$cDx9t})_OEuwNWm<lmaWTnD{1d;(1wwIog9?$X^D_Utaq-VK~
+zfY=roC(nI%&z7g1qnb+<Ish%tva>|*#H{!-8Dq?ANaLi#m)r}4R_}QxgZ%_zM%6S<
+zy7UGluzj5u{-gV}{!;sDAnZmk&L$y^mpmf*Sk}7$v66M<NUznP@!Ak|L*ZC;W@uIe
+z&&XG6cGI!-e|@iIpqAWL!!RFOtVi{ezRDmPbbPB}9t#>?!-Bx=>uZ(wA8NRb*9E47
+z;_-&38otB#8h*f!3V!0r&k87183vW$RW%P<mR;d$xU)|+s!NWiS6s8HJFcf!<#SV)
+zx?eWBh6+q>o@qEjRe`197$+KR)F@5+Ra56Xrwh#JR>$9Rbgu_X_CR?8ldo9qmXA$?
+zsxh46Yc`h}a%Ffi_^QxCnC^tY?4Ylo5>80;ndNjdJew*k4J+#DpiGmD{=gl=K5Czg
+z(rME(Nm<x!u|sFS<!1MYrAJ&%S@R#Odfjx0>q>x>r2$hnSLC?Bq=zp@J-1^b38}%2
+zv|}oO5IsY6p4rY7iGA;$Dh<PIHWzcboWP?Y*?IN02B``>Yuup^$SwNBgc0KVK%)>}
+z3BRX$r#=FD%xRy%8#J?M9;SXieF2fqoFkN8K1VoxiO3<DM$R$%!gqd?+9XD(ogkM<
+z#1O{~Bru05ERt34z~C*s4frDtFZ>Y`2+{a1Qr)n-7$p=Sp8gf1mrxEfsS8Bgh@JI<
+zjrz{XKJa)CJdUL<cpPbDeDGzgP|x6Jw41?m3_jn6y0h{p#+Fyw7<&>q`vux1#t$!W
+zBQep&B(2BWNVG8(KJ!n9W6x1^&?rXH$0_O*#hoGYs}z^{q&xUMJ~>*+`h0Tqdxv<$
+zNbDN!5tDbxs`b|LwDum2qY!^%MxoFA`@Z52d<7qN6};#w$g_gXZ<rpYV1^WA=$}YZ
+zGepJ;ky#}fS(1?>8BFV5pNxD@M!t8f`JRkrd~`)d{u&wU^xyDDA5(NdC65S|<Sat}
+E0>HZ>ivR!s
+
+diff --git out/production/Udemy_learning/PreviousImplementation/Car.class out/production/Udemy_learning/PreviousImplementation/Car.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..e64ce725d63ec6edd44021e3d07e8414e8bd8970
+GIT binary patch
+literal 1301
+zc${@oYfscb6g}Nnw@YPtg9~B>h24VGH$I4oY&0Q3Bw2%rU(8S@%Rsj!?JUZF@`D;z
+z6F>L^{87d`rC|}rG`X*tbMC!o`s??Pp8!^|R)LMWg#k2_ag|w8X4%3`td!wZa0|D~
+zxKqYm6ZcHqH&EhXTZG(z@z#Llp9CV@<8eay1|7cN=RBaK5V8*48QDBw$IJ^@*!Eg7
+z7Ge7dU0M^NkWURv)HnV;Z|o4d8SN3ex=D?;x}9Afzh=8Z$`|=8*kQ3yc~&gQeL*c}
+zHn(GbETV3*(K!luhli3$5rtlp#niPdlIPjv`Few9x7%Dc`{PrQ7O<%JCfmWJcq?6F
+ztlrQqGLT3X%X6$WdgYn#^MJ=pQmMEeb9P9@R@9As{z9m6t1p=d-}wPck`+a2V+`{)
+zsu;2{tjq{TZCt{ji3c{l(nAB2Tan|l*b#}d&tvY$$Vpq9cx2--Xp}4cwhnW`D0KJ-
+zkw}_T0S%0|WOSsd*Z!}Wfua7+uXYc(FaIjFP7=vGw0G2{gYi>=MC5IgI+8TvtV4s1
+zYRV+-k;;OQaCO};0EhlUn|{&)a!Lw{a!R4p4`-fqB3}l*55~z(P<BZ5Jo(G+cNp$;
+z4>{NDA@45tP;d)96hEiXNwPJR$PQAADlDQLB;rvbogzC$C(bDmeKjDB)Br{rsn$7)
+zr!kW?_Q<QVqWcxak7rFvX>lSYv`;T&g!E>Z)qrys!8I-TsurBT2%gn~9bD6Z3!g54
+z=d|EC%xB=$R0F{Jg3^fj4duSL74pCWz0Tq}66=iQx}L<+khny$q$RnbC#h&iR*1yY
+Kk}RY*7ykf2;Mjox
+
+diff --git Linked_list_chalange/out/production/LinkedListChallenge/com/timbuchalka/Song.class Linked_list_chalange/out/production/LinkedListChallenge/com/timbuchalka/Song.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..bff0e5089a21f9e7b605b2e2ba345fe6e90d1812
+GIT binary patch
+literal 768
+zc${^T+iuf95QhJC+??u?G(7?#O@UI!Rcnb$KwLnCxQO5)Ri$2T94p=8*p*rHTvTdP
+zsg?QwJQQMPZ57l8MVk3{cjlWz{OkAiEr8eX>R3d(hB}_H=~S>)hmAIyZWY_?pR;*U
+z!OIGE1QxW?Q7F(FoXQ{4k7PXYhdNd9<gGw;oTXB$Bo+{Tf$}>QEB#(z-F+C{?;Q!)
+zACob`8Uq!FU$W^aOb_KK$0vb|j%2F%TwL1vM13dPAV{XZR?|@yoXF^#^oL1aeiG`#
+zyuDSoH@88Z<XWIUOtLfxKPe8cG2ws{95nIDfrBLnkI)d<xR3desc0Og4tC)RSZ}(l
+zdJZ0Alj_cEO`!P~@^y3?23nxx@&d~8>@1AO0{e4T^l*ftHcirY`~QE&Hu#SPEc($X
+zM$t6nOQ3GBOtwX*V>;X98{QR!w|5E4b1zXkHwi0bTjrU+fJM~6D_O!S-E=9D(y)eg
+zz$h*wjN(ET=?!caWqk7dw%}dB`gsR0o6DvFI(a|=6uiwM`LpR6=-j|QzRDRhlv@=t
+Xq)RhYXQ<t$uKh#p+)<yHsHcAb^6HUt
+
+diff --git out/production/Udemy_learning/PreviousImplementation/List.class out/production/Udemy_learning/PreviousImplementation/List.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..2b27de1426850fcd2b2c1a0bed731e4b624806e2
+GIT binary patch
+literal 1574
+zc$|$?OH&g;5dMZlmV^~BJbc8*q9_EE_<oRpN)(L-MPq592Wv>CU}UqK+MQ4p&;9_9
+zp1pY1Qmn!%%d>yMe_~l`&+hsn(ekjf-92A-f89MZAHQzA2XF?rljy;SfrCkOU?hR9
+zIHaY~1jdlj(s+t+lSyQ8RIA4f98ZDaq=8cgPBWPE&4=9cc+-}?Vi+tv;%hwHP}0s`
+z)aDYIa}0^HTz0r>c!D9*4wDa!Hg}e@W#vg{IX6Rooq6d<HNy}a%iLv%7u+gE=q*V{
+z+-TI6gm;H8*<?wT+zPkva!+bKGRD=4^cnV)7Cf;g-G*PR)ooD|j^awXPB!A!&8yYR
+zp`Fl!W35bdYD0t&ovQ`Fu(eKt5<kN*NnerdWyLG2^SmB$N|xP*R}phkD+$eDQb#k<
+zj{%1MHk~oii$0TPb=JT+6H~~U$YYwJZ`O5{uRLC#7iz_=`n{c)>B4yv7jV(Qtce2B
+zCNAMJVK-Cm!korkVMza@JAXLdTzVubWQtM0HuWjo%4P2VnW^b3Q6mSp@#|<vH@l!)
+zMKlDjQRm{md@O<i7n8UO>e=X`+pt#nny@I7s7|pTZMCFh1%0vfX|ou%*Z8U^xK4$u
+zds3~C<SQPHv6yK$r~Wo1Xt=@jY=>wp3)SKsmB-K%os%hMN#9~bb*$LtxU`xKT+{8o
+z!7%b`PdaPvs)!(A6?43zT(4<hfzE!(bypj8x?@Gh5njROzAvb>XTNtoiV>cGtK6yD
+z!XF78bFDP~=6I)B7j57V+Kjk0M1k9OSt>zA-eNfTU)&h>{u_s3dW(AK?P2ul&;_9X
+zHqttfLX2d(Ewm1jWhT&pzVWwU<L}V1_!hA@h`$WbL$vC53)q4<3~VRK4Dr~3ok9Fv
+zNJp_|38}Hk@z;n?tYgc)%~86MAb%ZYC`3k4w6q(0C=ONjliO3usZrCf(5XYN!`MI<
+zu#QA5pN=fgVbOM=rPq=CfbI=Sp)pSwd-3g)rVtA#3{erFW~7MxK3Y%HKTpYi&>5gd
+xdmpTzyy=M8FntMhe4*FnGe#-U{-B}*m=8EJT*pn62s%M}5A7T#+mT>B@g0^xg24a)
+
+diff --git out/production/Udemy_learning/PreviousImplementation/Main_1.class out/production/Udemy_learning/PreviousImplementation/Main_1.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..18101a44f1d46b9c4fc7d386f206606f715730e5
+GIT binary patch
+literal 1985
+zc$|$@ZC4vb6n-X<?6QQHhBu40P^B?|CAL*-8^l787MoBc6)dPYNv6q=&2G-_gd;!0
+zZ~6=TTt85)=k)m5zv18TsCRZ#Ubj8w!#;QC-nsXA?w#5E`Ootg0B)gSVGK77d|)Al
+zn<hTg_>qZQCO$TC+r%9cITQ0HJ~6RiVHBV0h`YU*!(tDXkk{6-fzMKuZ`H!*cwnGl
+zpvaJzmyT2m3|*P&O@{8gTNMlg1?h;jcC#$JN4#v)N~+*ixV_0esoy(`-Ks8qhKa(u
+zC-$Y=_E(!NTQr5ExRS1uEpqAXUe8frlPreO%uZpC@AIt9om#e}Jn7VOL0RtADA7=a
+zo55%v?Ap>-v_EvWm9(?Oupz1iTF+_6DRu{~mkehjcg&wJvp`wm>ts@yi<#&;nyF<U
+zy)!V$Fnl6*RSAzP*P~pSh~-z5?JFr>X%u-Y;A~)xp{FEk4p(iDBwUMT6PYYvSaRE5
+zMXX4zzc(DgoQ_T64O}F`QP~*Aqh~m`RNPA9A=YU~i|r~2wzgbb`A>LF&_t~b*S7r)
+zSK2hbc&Xu5Ibl)OIYk<aPSq1auPjUM5SsUR*^|O1F7G0f#245|qJ&2VzD!~hROu@`
+zW*9sxjh2>NSNY20t)ftMx9Sfhux(-|iLddEfp3%8#di#sUV9QxWqw%R6BQDkIzK47
+z4ZK=q7|9gQ#^<KDNrpTM9L-Ee9{{7y{WbBu3U1c+X-x;d5>0ZrZE}x<`=y%=jvomY
+zys7Vu6YL&-S>PlI3mj#J{v!9K!zTshyEDlc#+tk#@~%_iYD=m*S-#?qqS>S~5jQXD
+zwhcwFAvG=iW;<tka&(0aRP-chP*cZV>Fm1=(FqD!t?&x9=fD6Rk3_+B8|@ZDa@BE!
+zm$$j^3!?ht$qJnu;n44Mr)mp-D%_YmPvlh_^%o%`d?#YO=TqdlZI@``IRkqPSN|6`
+zhRd&y!xj2Wk3s*s!1T?e=QzD(2^nF0<{8*iGGcg>o{3;Ffw$<H3<GcpmkE0?fyvJ1
+z7Ze>MEc}kx<7en9%%-{z5#O3kB|<PlFhl4G!3v=_gk%VP0sM;orvXLH;RaRK)lKwa
+z0R1FjfH(|d3KuYo6#0j68^gGZ5!@qj4@i{eI~sB#$!`;ySjIcFhg#Xu60W4lvh-(x
+zqP3PEI$F{*hxC6m`x^!se!}=KxIlJ_;SUTwr(!t7$j|@&rCD|dEK`J_y1GC8)S;`?
+zonsbhOjB*$y(^d@)**{yU;4=R9{H{X{f+&NxPiF|nvEXE`_zu>fpr5<2rUY%q7FfF
+MR|0{I<TKp=4|NvskpKVy
+
+diff --git out/production/Udemy_learning/PreviousImplementation/Main_class.class out/production/Udemy_learning/PreviousImplementation/Main_class.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..ad34e93441a5624b75ee85c38a8ed8669a2c2fff
+GIT binary patch
+literal 2634
+zc$|$@TT@$A6#foLI7tWv0`vl;o?hi9c&V)dMO&aYmJ}?N+M?nn*^pC`bK=Pf1+ACb
+z_Q8MPtF>Ak`(QgG%+O99eQ=zP4~~C9AANVGGp&C6BtR=^D>LkU_PTs)eQT|~bNk-%
+zEdcv)F^nb*g>VS3L@78D#xN2(j)oDyP!J<(9}VI)wI9<l7Dg3@)N(wC*VR6*mJ?BE
+zIH}{50-6XTiZ|8rmX5cBm<-|_9YV*HhRQzEGTnX+zSg#J4gLW;B{kFxo0dFU$WBS;
+zxR}aN5*@aaA~P-=Q=LmfzneDm8g>kiI&#jm3;B39myua%xxzJVt2-e~YciP;`Ft-U
+z%}6(Hxf%kk@wSP$2F>I@_X^9Qc1~mpl3*1|RXyg4<ZMFZyg)iy87oUL4I5i0hEIz*
+z(VY?2O!t`UnAS|Mm$`6e=w4q&ts!X1Gm{xJ&*-s-B|A(tP4(<T$+EGCRB+8q_W{Qd
+z3nhz6N4n!8!{kp9IcMih<<Ha}EYU)4rA%$*fcn<w*-!9@BSng3k~7jFosgVQ%3KkD
+z`+YERD_3w6W<D$2WO``DhW>%1T~I|Pj$3f7NulDARX!;!OR~`Q_o0jxg^KmGX{8dX
+zz=76@cpF;~D0zmm?4j2j4dF4n;3VZCQ?aU9>u#5VjG!4UI+78jKy~dw+jjG=BXSAp
+zrtMU|rV`UZ%tVlespE76vtSLIAJGjakucN3j3BE_^#fMQk&=Ndw2(-dqDEjNN4G&!
+zShRZ=xd<HOgK$;Yf`+<v<Rh5F8I}8d1PgdigYmd3YuLSD7mT!+lLqsZj!YTCIOEvX
+zjA40q#+bGp`mlJ%)54lHXs%(~V=oDdwl)(ZQ>SIpeLys}kauO4SJf`8ji+gMk8*lk
+z&X5$@-Z0+BSq)o;RAPp<GD$}9dUYAq8a8FctQ@edq;OA|Zkk_tS6D8?H}YndyFT@0
+zBC#Jib;?-Eul${?5~<Wskt@-wJ$t!&_EGyE-y-SWHg&O*HY;RWG}Jkpa(-m`A;uim
+zEytv*C>mzIM;k5ONbjItj8o-VRj6@atD@KJQWZ69ZY`@&taMAx7hf{InQ<K-sM$KF
+zVdq*5)0(qqWhqp#)Q3dUwVeeW=lOyR+xBdMgBppe5gbs>S8v~E_tPt36mQRAVWl!M
+zzq9DryPnR&9Mv;a#(bho9oIt)h)ib8bY-uO3mSI)uiP|jeY736VGDoa)L(!<QhYSH
+z#(3)Ht|@8z60~dlsK8dPm7dVS6I>%j0~iDWLfDQSCFirW_Hj3^qoQe9eJ;Y^bTd5c
+z+uzc0>k>j2Dzq#A{N3>#ZG0YX6n?Jfh<P5hxJcQjUJQf!D5X2Gi<s)Xn_r+!EuKUx
+z<F$F2RNO^WN4s{1Ker)tptF?8AM_7!AG?9T$tCu>BdRYV*bxn>brInksG>ZQ=v4CR
+z6P-$-whhIN!kT{XRJ+$tHnB$kGU_}&*H)8%mI(l#BZy1bfG^O1%h-%Bne10g@(Q}}
+zHJ-;e=)<=d#8n)_HILk$VrqDb7NGYLR{d!vZs0jQL(~d-Y~uGG#u-EnF?O*`drPG+
+zTJ57%7%!}r{`V5$9#!reh@QNT`Xw|ZeEqSeONe#EIv3G6as|~ricWMBiCplp8GowN
+zW}es-UQ=QjT#NkL83Fj7u~`i)QNB$5545<+rr)A|iFyCXEPh($wVixkL=S!HC{yiI
+z1JQ$CuYHO|pVz(`Hfuln$wD=<0secaV<UA$wWB&VhVBq6jF<3oiQmV>QAjagABU-(
+z!_?5+-qLj$I@dmLuKsGiy4sp1PAu><;eR2_Z6@<88u{If-&W_#&mynPR}2T3mYViv
+u9Hgu`Usdqkg<sQZRW?2hcm{*a1q9XbAwI!Jyhn$5-at*9vRA$Jjei0An1Is&
+
+diff --git out/production/Udemy_learning/PreviousImplementation/MobilePhone.class out/production/Udemy_learning/PreviousImplementation/MobilePhone.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..f82a894552d7ce2e491648260981efbf0ccedceb
+GIT binary patch
+literal 4236
+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
+Lb=CTLwI2FEAVN$)
+
+diff --git out/production/Udemy_learning/PreviousImplementation/Rolls_Royce.class out/production/Udemy_learning/PreviousImplementation/Rolls_Royce.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..28a95d0ba0423bc37be47bd6404cab157d73fd7a
+GIT binary patch
+literal 923
+zc$|%rT~8B16o%hJOSfHC3q||@KPsXuMCm0L7!xI$G^vIF;nHT<PRiiyOfx$r>Ce&&
+zO}y|2_@j(xx4md|jqD~f=bW7L%$qmo=dbTS0PJHoL>=o5Y~X$!4?;Y|qdMAkJPxoK
+z;0dAjQW@o65pKub-lez_9WBhTbK;#c!-JhOLiNxNB%#?;Mt&Hl=hB^ubIp}j&n7~j
+z38(UWR;>C9l@YdjM^0WTJI=c4NXt|jFTAp*b8NNF`p0&X$OA$nnP_DO((wp&dD@7y
+zApfO=u#|b>{97|*9fV4pYYSf|iPX{w&!xpTPKr-lJh5Y!$agB&(|j+K=_gub*<KEf
+z&_EbqE5cJeBgEx0_vU1_i+2NTM~JaQcyWypF(+&LT2I&!Ve|i<5!V0FbSNBQdCs><
+z=4Hx8*|8_AO&wLXbHsLfHdTt0O<gT16M|8mX~T1I*;1g5fcGl@s-WCaK9@M_qQXBA
+z>~1{&2Kvn50wO*`zJZUZp^qCJwWn>kiDrQbu#6Rk<WUQ&+)cQJwHbE5$brTeEVL?L
+rQT-D<U^TJ;N7Kd`nAf@-vRDF947n_Y+$o3DN+5<IwiI%==)CtEVr$Fm
+
+diff --git out/production/Udemy_learning/PreviousImplementation/Contacts.class out/production/Udemy_learning/PreviousImplementation/Contacts.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..826075d49a39bbd606d474aaf0385ad85da6f180
+GIT binary patch
+literal 1164
+zc$|e&T~8BH5IwhFx4T^g3RF~()-TF})X(^UAu&V~lZqrYyf5{pUF_~QyIas-<D;))
+zL=zwU0sbiU?CpmInwag*ojWt<%$(`|`u*c4fG2ot!oW=fdE83OZHYSuR#DAk&4i70
+zi4BRn0-0UMQv${Mp>yQaI*#9}HR90qTU!EhuO0YmHx$S{b$vJ97FexbEW8+5+b8i(
+z@Rr2Wb(a)9??8oboP&;T6*QgBz7x91eGn9U7siO5zi+B;>;^u^$i!_o5~$SoLUrT@
+zz38Ra?I=(Av6EEPb^?0MIAUp5Pb@IiVC3B^r>p5DHYuj1;=b1T>e?i=CJRP_Wi+f_
+zn4nne^L5&c#!=m&XEuUf*i<jvMBLPH!p(%q!W3#2OcX3wC<x3=kS%e~!hJjtup5D=
+zxB<UacBArf7|=O(<94|jD(dIW@yo%%p=!nw4=p^xvcSrJRwXd=ujy+IJ`?Ke6i8PS
+zspE+cQLH>Bf?hoO$K0T{$NHEk<#<~|MQ6jwc9L7iM};4x!LKyMhilNDrOzz5EnK3V
+z=ItZn8J^ed?-2I-DN^>vDbk-{?S4VFnEM8K!qN-@v$Sc<u=qM8t-*VN*3!9I+9I=8
+zX=j<WnJsdNBIbx<1I%Lq&|Wf-&|ZmN3YY1ZkorSlS|Ts8$RC76CeOMn<m?Yy<C);H
+z_E)4nYfZ^GIUStWZLNO6pqXHcN#OK(@Zv=95|#(xZM{fV>lK}h(58+q5wolrO8u&l
+n)*N?L(2Z9{T+aqvhMi2pWuK=jb8VF|I%7m<FxRK6Xv~ejl*Zg~
+
+diff --git out/production/Udemy_learning/PreviousImplementation/PhoneInterface.class out/production/Udemy_learning/PreviousImplementation/PhoneInterface.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..8040fab80b86479ba9f9823d13d37c95b5a30523
+GIT binary patch
+literal 177
+zc$`&@F$%&!6h!C8m}qPS&mhFclpa73QY9eRui-}%Hh*Q^<Zu=qz(a|<rPDm-F)*L+
+z>kZ(5Rf=VbjF7m|N+pC@zPk|Oqte<VFGI`DX0#2TI?aSleK*3TIJT{7c;Bl@5w^AE
+xsWaoV93Gkn7N=Zir1&2b)?r>~CAXrw_T0FHK!^|$#r_^K;5kR)4IvF4iyvlbDg*!k
+
+diff --git out/production/Udemy_learning/PreviousImplementation/Phone.class out/production/Udemy_learning/PreviousImplementation/Phone.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..b440e7b352893a57964cf4e7be519412d15f25fd
+GIT binary patch
+literal 612
+zc$|HZ%TB^T6o&udR;VBdir1L9FhNc1%DBL|F)<-&gapIJ)ldf*(oW6L@?Ne?T=)P!
+zl<{<EyhLQt^Ut|_^PkT9$Lkw_OYGaoV%x%wg<T7K423JHWOU7tZJi7layQ|lV5quM
+ziMu!$3VqLqK2_>&=y89*wM_D~n2RQI#&GENw3y2<o^^sJUj#x$Jd&YudXrFzHq8ZG
+zDu!n3!JYCscYLnKPCwF8joZeR>oMKaSkk5qqgbo1N_OMEPtxinOiAhP$QUrN4ujnf
+zW9^AsnJi|T#(8pE8F>^K4pyzmQ2RFS4yVG47>-vF9Tf>Z;-0_}GW4Xh7QJtdl-wv<
+zlsTk~G=KU6_DqKiiWCc`m_><Vc`*PRYosO0D=B<NU()*n7Jq;Y>!=#7eYyS%R(^pC
+eM}`g5Q}DvfF9GWYY%ZE9n4B8eG=I2d=9`~2>}@sx
+
+diff --git out/production/Udemy_learning/PreviousImplementation/BMW.class out/production/Udemy_learning/PreviousImplementation/BMW.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..3c3fc5975b5c549ecceb91f33e1203d2572c4dc3
+GIT binary patch
+literal 846
+zc$|%r(N5bi6o!A((zGF4p<`tfwq+Zzf)Ksz1!&T!HmOr#m0ES%)ntNI42gpr7m3Fj
+z7a(!L1MpDOj?-SCkxok_$LIL>=l>k%{`c)2fF|lL94wbm!%7jWE?(kQ5w9Ki4&E>n
+z_N0>L14Fgm?ws-q-UzuGHhM-&HQe1CFyveDv0x~7q!Ndt=t$^3KME;R>BIpK2V6@V
+zPm+0aA`^zyPFITy8IO{7bRLRGD8r46Rb&6)+b%;XxD2H_7Mi52O}iA2QsN^A40DO$
+z+I&(&I-em|x1QXOK_Eh*xuMkTz83t9lD&AO1Myi}ALRos)z2X0NwQ<19*QVAc<bRE
+z))@S3dpl&$PtS9(?qLJ(8P@+H<qvGsrdK?DvBfpR{DZ156C)xjGaea+=i`3JxY4C%
+z7;1^&5w+x5Mw-Dnw^68QUp?z8;iEvmf_?H}wjVUQ6t$6~7jU*#wr{|G(R2oLG`jS)
+z%LROaM>Bsc!xKDBF%HU@Cy1Rbph9Z$hQ$fCnZ`ir3Nw}5HS&Lh56Q#V6zq+K6EGE!
+a4Vle=^a#?=gjD|@@|_?*G9gQ;^2HxGcdW|*
+
+diff --git out/production/Udemy_learning/NamingConventionsPackagesStaticandFinalKeywords/Main.class out/production/Udemy_learning/NamingConventionsPackagesStaticandFinalKeywords/Main.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..d50c13ee2ce94abe06c6f5d1e801bfe8b5374bef
+GIT binary patch
+literal 1281
+zc$}S6T~8B16g|_HZo4jDtpyP(AbzxftO)XLMXMx)QZY3cG%=ZO*D}!VlHDy$-~A^(
+z_^c0LH1P-cKYa8L7=zx~RwRaKWRjgbbMC!o&Ye5^`RKzZ0JB(8(TS@Hu0?QNMF1%|
+zrK1?dn2K@SP%!~Lf}7G#O5|1qQ_@Z=xUFD@A-p6k;bj<tsq`j8C~KEYhR&R@%zUj{
+zG@U2BSRo{qvkhL^<c^U078vrjh08FL%k!$R%30gmH!V-tmb<}?U0ycbg2z2!aI3T;
+zEM8eN8+F?$x%xU6)*|Is$ujh$p67P>KG!SUD(eN$A+ANKh6(ysDULg3IwyWg7&$Fp
+zG6{6bdVR{!OLkSy6GpyBwNV#V$*waj{J+S?Q$Lq@+9|}?UFUm#;R<FM)Ph}e40A=u
+zi-^jCCZsqGUFc?*JL_RYoHy%3&5b0R(=d+(1&bP%a7RH#!(A*ZxToPhvJ8Wxe;+c8
+zI38e`VMzbS(C|>kO`oNo3|+sw^QgFE8XiG^HiaRPI=$JdYkHf)70s8GdM2?GjD?2l
+znN@nHc8z!wO%7q}8${p{jmfLjsNR;)>^84dOsj0_1=A6xE1yZBR+Yr7X?judQ_>lf
+zJ-Mq`%`iGY`jQ)-O>e#;*P>`!+%N=&(Lw*6904%daGGPZ)5$WjZKH=^Z+&;1=CBV&
+zaGqwZ8Gr<O$VSnN3(aIUj37dU?XcWO1h!(qLxk4HLkDOJW|Cd%YsB9noO}=E0FhTg
+z_U6ae7T!;IEP4R7=|A_&|K+4#JNCC9`=!F5uQ216qmkYYnmehWZuF6=5wdC0I!S8h
+zNo$tYtGI~A=*JcYV9;7%$geCzb;c>KkFX%daH+LgJ6=(3lsDkt%QljPGdk@B28kg+
+dmkPqdM~Ex9tRTR?A@LoIOtNJte8f+_@)K9GCO`lH
+
+diff --git out/production/Udemy_learning/NamingConventionsPackagesStaticandFinalKeywords/MyWindow.class out/production/Udemy_learning/NamingConventionsPackagesStaticandFinalKeywords/MyWindow.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..17705b2fee3b01cd5e1ed8bd8d38df8efac76edb
+GIT binary patch
+literal 1231
+zc$}S6+fLg+5IqYC4#q%Y%B2NLptKDMkWzZ#67qrsLQSGduBeduvc%i4tz#qGA)?>V
+zujn82B}hf;2lRXTTy@qaPzq11<=vg}oHJ)<$G`sk_zB=O$~uNIuVV<0H9XPLi>J!S
+zDffbgd<q2}8WwddVL64OTA!t`qT#uQRR&|vb%np}@E{NYLtja{GAuKU<|?1~2`@U_
+zZ4|B0mu_QoVV@zf?b(81xFTIqYc&sr|BfFz<S{E=ojd#7m&(3yCc-00tQ(aYZxX|{
+z=bi{Rl%5;B<@L|JAp$Gpp{#S)-jObM-iXt-=i5QCdiq|vw%6WdNQN?u6WkC)ACI|o
+zLx!;nxx5_~cYS_*B<n$>mo*qhZu!PA6mU1NgfBl<xZjA*bQ!kex#6`CtH~XQLASh?
+zUl%)42^#E*Tvj-Sftm=ys!%lv3}j#$c!8I6`nw)}enru|GU%Gu3_QRj<-8`5q2KB%
+zRH5q{HVkZ{MAho%$Of&$rf0VtVPFgE3=>w^vPnpmim1}dRy|vlM_e+j-Bl@->Pnc;
+zn^YYw5TPZ%&@P$V+f!GumAiWzD13(7c5GH;5DIErhPi+4T`1Dx^@s>KeoHUMk}@|M
+zBNiSP*UbIb5elN)K5xe)n592$7;5x@sT-$xgscxpkO!E`7tX-)8TLDauO0N{&(V93
+zKSQE}<o5`5k7kpi0Ru@4659|aF^*C4jKv(Zjz>ABFoFA&fvHxw$n=d+3SCy2`p%&p
+zn5jhCJVSrAYZzqI3X2`+1#=)>N|!n?3QLhWNTyBZm6kcAXr3h2Dbh8K89c;1&CAGQ
+xmCn0`N0GLCob^&$nc}BOlZiz_%n;iQJz08t>6wlA=LieJG4iBor$@VJ`~^q4E7Sl0
+
+diff --git out/production/Udemy_learning/NamingConventionsPackagesStaticandFinalKeywords/MyWindow$1.class out/production/Udemy_learning/NamingConventionsPackagesStaticandFinalKeywords/MyWindow$1.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..ec6798160c188fa270d0f7350a24696a1dee9f1b
+GIT binary patch
+literal 903
+zc$}S5T~8B16g@+`-Lh__pnxAJsMQoqTzS$ckeCJ{u{0(%^?BHxl+o>s*%_$)Sw0X5
+z5B>mu6yeUaDi6koZn87?o;ml-xij<Y^5Q3eS9msyGVVnPa6iHd9)x%pVwIs{kECh5
+zWO&o=@PSnQmR2W1S*exz$kVU9FHF~RD^sqrJ*jy9L5zmF$V_rD`YctZhi^$`ODbu1
+z7`B_!%dGbp$}OD<hPk#>qH{br6vZcgm=m(l)+x_>ypS%RfMsW%A>LO?6s?>aBPiXP
+z+CpQKdZ`V4+{(2f5r)-f`wKte2_M=-IKgC0-gU7z&B)5i|40l`S05Lt*ptq7?e~5!
+zTn%-*tJ3jq2f`ldEW}!jDjqRZJHpua+SnKsgbsWh;z^7Kp3;p?-zNF}r`>lM|7JzO
+z@OoNphQ-Nw<y`fXt}RH$pHivm#`?9jk+EVxw<x|#OH*@yy@xe=rUAWJR<FC3DVm|b
+zidoPhQnW+4L!yo6r(hdrnEBy3H)yO72e^rt#-%X}HOv7%a%yx}sAGPjwN0~Q1*LP8
+r{>nrioF^j-*QA0!QUT$&sI-jRzGjgapllg;aMvTtWWwn<j{mLz0c+$?
+
