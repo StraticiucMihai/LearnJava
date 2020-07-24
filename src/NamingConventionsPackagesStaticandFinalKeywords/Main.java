@@ -39,6 +39,14 @@ public class Main {
         System.out.println("David balance is: "+account.getBalance());
         // Static
 
+        StaticTest firsInstance = new StaticTest("1'ts Instance");
+        System.out.println(firsInstance.getName()+" has the instance number "+firsInstance.getNumInstances());
+
+        StaticTest secondInstance = new StaticTest("2'th Instance");
+        System.out.println(secondInstance.getName()+" has the instance number "+secondInstance.getNumInstances());
+        // Call static method
+        System.out.println("Call "+ StaticTest.getNumInstances());
+
 
     }
 }
