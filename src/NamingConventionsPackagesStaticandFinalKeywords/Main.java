@@ -29,5 +29,16 @@ public class Main {
 
         }
 
+        //Scope
+        Account account = new Account("David");
+        account.deposit(1000);
+        account.withdraw(500);
+        account.deposit(-20);
+        account.withdraw(-300);
+        account.calculateBalance();
+        System.out.println("David balance is: "+account.getBalance());
+        // Static
+
+
     }
 }
