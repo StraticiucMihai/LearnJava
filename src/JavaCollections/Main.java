@@ -32,7 +32,7 @@ public class Main {
 //        else {
 //            System.out.println("Seat is already taken");
 //        }
-        
+
     }
 
     public static void printList (List<Theater.Seat> list){
