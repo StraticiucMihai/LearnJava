@@ -15,5 +15,19 @@ public class Main {
 
         System.out.println(languages.get("Java"));
         System.out.println(languages.size());
+        System.out.println("========================================");
+        // Extract all elements from the MAP
+        for (String key : languages.keySet()){
+            System.out.println(key + " : "+ languages.get(key));
+        }
+        languages.remove("C");
+        String ret = languages.replace("C++", "Good language but i love JAVA more");
+        System.out.println("Ret = " + ret);
+        
+        System.out.println("========================================");
+        for (String key : languages.keySet()){
+            System.out.println(key + " : "+ languages.get(key));
+        }
+
     }
 }
