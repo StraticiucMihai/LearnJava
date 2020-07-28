@@ -1,4 +1,4 @@
-package JavaCollections;
+package TheatreProgram;
 
 import java.util.ArrayList;
 import java.util.Collections;
