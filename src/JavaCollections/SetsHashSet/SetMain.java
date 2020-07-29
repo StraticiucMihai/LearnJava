@@ -1,5 +1,6 @@
 package JavaCollections.SetsHashSet;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -23,6 +24,14 @@ public class SetMain {
         System.out.println("Intersection contain: " + intersection.size());
         for(int i : intersection){
             System.out.println(i +" is the square of " + Math.sqrt(i)+ " and the cube of " + Math.cbrt(i));
+        }
+
+        Set<String> words = new HashSet<>();
+        String string = "Mihai are multe mere , mihai , Mihai";
+        String[] words1 = string.split(" ");
+        words.addAll(Arrays.asList(words1));
+        for (String s: words){
+            System.out.println(s);
         }
 
     }
