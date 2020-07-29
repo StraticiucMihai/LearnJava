@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Set;
 
 public class Main {
-    private static Map<String, HeavenlyBody> solarSystem = new HashMap<>();
+    private static Map<String, HeavenlyBody>    solarSystem = new HashMap<>();
     private static Set<HeavenlyBody> planets = new HashSet<>();
 
     public static void main(String[] args) {
@@ -94,6 +94,18 @@ public class Main {
         for(HeavenlyBody moon : moons) {
             System.out.println("\t" + moon.getName());
         }
+
+        System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+        HeavenlyBody pluto = new HeavenlyBody("Pluto", 842);
+        planets.add(pluto);
+        System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+        for (HeavenlyBody planet: planets){
+            System.out.println(planet.getName() +" : "+planet.getOrbitalPeriod());
+//            for (HeavenlyBody moo: planet.getSatellites()){
+//                System.out.println("\t"+moo.getName());
+//            }
+        }
+
 
 
 
