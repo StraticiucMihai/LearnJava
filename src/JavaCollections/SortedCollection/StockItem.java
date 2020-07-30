@@ -4,9 +4,7 @@ public class StockItem implements Comparable<StockItem>{
 
     private final String name;
     private double price;
-    private int quantitystock = 0; ////// can be initialized later
-
-
+    private int quantitystock = 0;
 
     public StockItem(String name, double price) {
         this.name = name;
@@ -28,7 +26,7 @@ public class StockItem implements Comparable<StockItem>{
         return price;
     }
 
-    public int getQuantitystock() {
+    public int quantityInStock() {
         return quantitystock;
     }
 
