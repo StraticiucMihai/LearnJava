@@ -1,4 +1,4 @@
-import java.sql.*;
+
 
 /**
  * Test calling stored procedure with INOUT parameters
