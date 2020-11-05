@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DataExportManager">
@@ -25,7 +25,7 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="20c4f9f3-c0a3-4764-80e3-29af48d8139c">
-        <schema name="demo" object-types="index, table, procedure, column, function, dataset trigger, view, constraint" />
+        <schema name="demo" object-types="column, table, view" />
       </connection>
     </loaded-nodes>
   </component>
@@ -66,6 +66,9 @@ INSERT INTO `employees` (`id`,`last_name`,`first_name`,`email`, `department`, `s
 INSERT INTO `employees` (`id`,`last_name`,`first_name`,`email`, `department`, `salary`) VALUES (12,'Waters','David','david.waters@foo.com', 'Legal', 90000.00);
 
 select * from employees;
+
+select count(*)
+from employees
 --
 -- DEFINE STORED PROCEDURES
 --]]></console>

@@ -28,6 +28,7 @@ public class Main {
              /*Method .executeQuery(Query SQL)
              * - return a result object */
              resultSet = myStm.executeQuery("select * from employees");
+
              String sql = "update employees set resume=?" +"where email='paul.smith@foo.com'";
              PreparedStatement myStmt = myConn.prepareStatement(sql);
              File file = new File("Contract_studii_licenta_engleza_2020_2021.pdf");
@@ -40,6 +41,7 @@ public class Main {
              * Method resultSet.next()
              * - moves forward one row
              * + return true if there are more rows to process*/
+
              while (resultSet.next()){
                  System.out.println(resultSet.getInt("id") +" " +
                                     resultSet.getString("last_name")+ " " +
@@ -61,7 +63,7 @@ public class Main {
                      "insert into employees" +
                      "(last_name,first_name,email,department,salary)" +
                      "values" +
-                     "('Slabu','Andreea','mihai@andrei@gmail.com','Software Developer','120000.0')");
+                     "('Mihai','Mihai','mihai@andrei@gmail.com','Software Developer','120000.0')");
 
              resultSet = myStm.executeQuery("select * from employees");
              while (resultSet.next()){
@@ -73,15 +75,15 @@ public class Main {
                          resultSet.getString("salary"));
              }
 
-             myConn.setAutoCommit(false);
-
-             if (askUser()){
-                 myConn.commit();
-             }
-             else{
-                 myConn.rollback();
-
-             }
+//             myConn.setAutoCommit(false);
+//
+//             if (askUser()){
+//                 myConn.commit();
+//             }
+//             else{
+//                 myConn.rollback();
+//
+//             }
 
 
 
