@@ -47,8 +47,8 @@ class Exercitiu1 {
         if(ascended_sorted[ascended_sorted.length -1] < 0){ return min_value;}
 
         do {
-            for (int i =0 ; i<  ascended_sorted.length ; i++){
-                if (min_value == ascended_sorted[i]){
+            for (int i :/*=0 ; i<  */ascended_sorted/*.length ; i++*/){
+                if (min_value ==/* ascended_sorted[i]*/i){
                     is_present = true;
                     break;
                 }
