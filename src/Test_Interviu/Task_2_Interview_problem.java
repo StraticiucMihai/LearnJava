@@ -4,7 +4,8 @@ import java.util.ArrayList;
 
 public class Task_2_Interview_problem {
     public static void main(String[] args) {
-        System.out.println("Test Interview " + 18/2);
+        System.out.println("Test Interview Task nr 2 ");
+
         System.out.println(solution(8,0));
 
 
