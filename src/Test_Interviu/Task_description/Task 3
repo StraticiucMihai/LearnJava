@@ -1,0 +1,9 @@
+Write a method that receive as a parameter a string composed of small letters and
+return another string where is exemplified what types of letter the input string contains
+and how many times they appear.
+
+Example: Input string "aaaabbcccfffff"  -> "4a2b3c5f"
+
+
+This problem can be extended: supplementary condition 1. String can contain Upper letters
+                                                      2. Cover corner cases
